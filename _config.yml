@@ -12,7 +12,7 @@ title                    : "Yanfeng Zhang / Northeastern University"
 title_separator          : "-"
 name                     : &name "Yanfeng Zhang"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://neuzhangyf.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "neuzhangyf/neuzhangyf.github.io"
 
@@ -22,22 +22,22 @@ repository               : "neuzhangyf/neuzhangyf.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Yanfeng Zhang"
   pronouns         : # example: "she/her"  
   bio              : "We build data systems"
   location         : "Shenyang, China"
   employer         : "Northeastern University"
-  uri              : # URL
+  URI              : "http://faculty.neu.edu.cn/zhangyf/"
   email            : "zhangyf@mail.neu.edu.cn" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  #arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=Bw90kcYAAAAJ"
   impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
