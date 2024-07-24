@@ -4,7 +4,7 @@ collection: teaching
 type: "Postgraduate course"
 permalink: /teaching/advanced-dist-systems
 venue: "Northeastern University, Department of Computer Science and Engineering"
-date: 2022-2024
+date: 2024-03-01
 location: ""
 ---
 
