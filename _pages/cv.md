@@ -11,26 +11,30 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, Northeastern University, 2012
+* Visiting Ph.D Student in Electronic and Computer Engineering, University of Massachusetts Amherst, 2012
+* M.S. in Computer Science, Northeastern University, 2008
+* B.S. in Computer Science, Northeastern University, 2005
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jan. 2017 - Now: Professor
+  * Department of Computer Science and Engineering, Northeastern University
+    
+* Dec. 2016 - Dec. 2017: Visiting Scholar
+  * Ohio State University
+  * Supervisor: [Xiaodong Zhang](https://cse.osu.edu/people/zhang.574)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Sep. 2012 - Dec. 2016: Associate Professor
+  * Department of Computer Science and Engineering, Northeastern University
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Apr. 2012 - Sep. 2012: Research Intern
+  * HP Lab China
+  * Supervisor: [Shimin Chen](https://www.shimin-chen.com/)
+ 
+* Aug. 2009 - Apr. 2012: Research Assistant
+  * University of Massachusetts Amherst
+  * Supervisor: [Lixin Gao](https://infosec.cs.umass.edu/person/gao-lixin)
   
 Skills
 ======
