@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2024-sigmod-adgnn
 excerpt: ''
 date: 2023-12-03
-venue: 'Proceedings of the ACM on Management of Data,'
+venue: 'Proceedings of the ACM on Management of Data'
 slidesurl: 'http://neuzhangyf.github.io/files/2024-sigmod-adgnn.pdf'
 paperurl: 'http://neuzhangyf.github.io/files/2024-sigmod-adgnn.pdf'
 citation: 'Zhen Song, Yu Gu, Tianyi Li, Qing Sun, Yanfeng Zhang, Christian S. Jensen, and Ge Yu. &quot;ADGNN: Towards Scalable GNN Training with Aggregation-Difference Aware Sampling.&quot; <i>Proceedings of ACM on Management of Data (SGIMOD 24)</i>, 1(4):229:1-26, 2023.'
