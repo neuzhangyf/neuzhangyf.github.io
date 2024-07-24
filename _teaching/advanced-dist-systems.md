@@ -2,7 +2,7 @@
 title: "Advanced Distributed Systems"
 collection: teaching
 type: "Postgraduate course"
-permalink: /teaching/advanced-dist-systems.md
+permalink: /teaching/advanced-dist-systems
 venue: "Northeastern University, Department of Computer Science and Engineering"
 date: 2022-2024
 location: ""
