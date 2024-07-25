@@ -1,6 +1,6 @@
 ---
-title: "2024-summer"
-excerpt: "iDC-NEU group at Huatian Building<br/><img src='/images/2024-summer.jpeg'>"
+title: "iDC-NEU group at Huatian Building"
+excerpt: "iDC-NEU group at Huatian Building, July 3, 2024<br/><img src='/images/2024-summer.jpeg'>"
 collection: portfolio
 ---
 
