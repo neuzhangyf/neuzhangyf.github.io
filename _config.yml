@@ -24,9 +24,9 @@ author:
   avatar           : "page.jpg"
   name             : "Yanfeng Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "We build data systems"
+  bio              : "Professor, Northeastern University, China"
   location         : "Shenyang, China"
-  employer         : "Northeastern University"
+  #employer         : "Northeastern University"
   URI              : "http://faculty.neu.edu.cn/zhangyf/"
   email            : "zhangyf@mail.neu.edu.cn" 
 
@@ -34,6 +34,7 @@ author:
   #arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=Bw90kcYAAAAJ"
   impactstory      : # URL
+  # dblp            : "https://dblp.org/pid/66/2444.html"
   # orcid            : "http://orcid.org/yourorcidurl"
   # semantic         : # URL
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
