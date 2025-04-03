@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.neu.edu.cn/'>Northeastern University</a>.
+subtitle: <a href='https://www.neu.edu.cn/'>Northeastern University</a>
 
 profile:
   align: right
-  image: head.jpeg
+  image: head2.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>B233 Xinxi Building</p>
@@ -27,12 +27,5 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a professor of School of Computer Science and Engineering at Northeastern University, China. I received my B.A., M.S., and Ph.D. from Northeastern University, China, in 2005, 2008, and 2012 respectively. During my Ph. D. study from Aug. 2009 to Apr. 2012, I spent 2.5 years working in Multimedia Networking & Internet Lab at University of Massachusetts Amherst as a visiting Ph.D. student.
+I am a professor of <a href='http://www.cse.neu.edu.cn/'>School of Computer Science and Engineering</a> at <a href='https://www.neu.edu.cn/'>Northeastern University</a>, China, and am leading <a href='https://idc-neu.github.io/'>iDC-NEU group</a>. My research interest focuses on building data systems including database systems, graph processing systems, and systems for AI. 
 
-My research interest is mainly on building data systems including database systems, graph processing systems, and systems for AI.
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
