@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.neu.edu.cn/'>Northeastern University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: head.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>B233 Xinxi Building</p>
@@ -22,10 +22,14 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+I am a professor of School of Computer Science and Engineering at Northeastern University, China. I received my B.A., M.S., and Ph.D. from Northeastern University, China, in 2005, 2008, and 2012 respectively. During my Ph. D. study from Aug. 2009 to Apr. 2012, I spent 2.5 years working in Multimedia Networking & Internet Lab at University of Massachusetts Amherst as a visiting Ph.D. student.
+
+My research interest is mainly on building data systems including database systems, graph processing systems, and systems for AI.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
