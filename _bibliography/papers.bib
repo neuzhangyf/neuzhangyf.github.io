@@ -16,7 +16,7 @@ issn = {2150-8097},
 url = {https://doi.org/10.14778/3705829.3705837},
 doi = {10.14778/3705829.3705837},
 abstract = {Graph neural networks (GNNs) have emerged as a promising direction. Training large-scale graphs that relies on distributed computing power poses new challenges. Existing distributed GNN systems leverage data parallelism by partitioning the input graph and distributing it to multiple workers. However, due to the irregular nature of the graph structure, existing distributed approaches suffer from unbalanced workloads and high overhead in managing cross-worker vertex dependencies.In this paper, we leverage tensor parallelism for distributed GNN training. GNN tensor parallelism eliminates cross-worker vertex dependencies by partitioning features instead of graph structures. Different workers are assigned training tasks on different feature slices with the same dimensional size, leading to a complete load balance. We achieve efficient GNN tensor parallelism through two critical functions. Firstly, we employ a generalized decoupled training framework to decouple NN operations from graph aggregation operations, significantly reducing the communication overhead caused by NN operations which must be computed using complete features. Secondly, we employ a memory-efficient task scheduling strategy to support the training of large graphs exceeding single GPU memory, while further improving performance by overlapping communication and computation. By integrating the above techniques, we propose a distributed GNN training system NeutronTP. Our experimental results on a 16-node Aliyun cluster demonstrate that NeutronTP achieves 1.29\texttimes{}-8.72\texttimes{} speedup over state-of-the-art GNN systems including DistDGL, NeutronStar, and Sancus.},
-google_scholar_id={HtS1dXgVpQUC},
+google_scholar_id={qyhmnyLat1gC},
 journal = {Proc. VLDB Endow.},
 month = feb,
 pages = {173–186},
@@ -34,105 +34,587 @@ numpages = {14}
   publisher={Springer}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{zhang2011priter,
+abbr={SoCC 11},
+  title={PrIter: A Distributed Framework for Prioritized Iterative Computations},
+  author={Zhang, Yanfeng and Gao, Qixin and Gao, Lixin and Wang, Cuirong},
+  booktitle={Proceedings of the 2nd ACM Symposium on Cloud Computing},
+  pages={1--14},
+  year={2011}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
+@article{zhang2013maiter,
+abbr={TPDS 13},
+  title={Maiter: An Asynchronous Graph Processing Framework for Delta-based Accumulative Iterative Computation},
+  author={Zhang, Yanfeng and Gao, Qixin and Gao, Lixin and Wang, Cuirong},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  volume={25},
   number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+  pages={2091--2100},
+  year={2013},
+  publisher={IEEE}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{he2017区块链技术与应用前瞻综述,
+abbr={计算机科学},
+  title={区块链技术与应用前瞻综述 (Survey on Blockchain Technology and Its Application Prospect)},
+  author={He, Pu and Yu, Ge and Zhang, Yanfeng and Bao, Yubin},
+  journal={计算机科学},
+  year={2017}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{zhang20152,
+abbr={TKDE 15},
+  title={i $\^{} 2$ Mapreduce: Incremental Mapreduce for Mining Evolving Big Data},
+  author={Zhang, Yanfeng and Chen, Shimin and Wang, Qiang and Yu, Ge},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={27},
+  number={7},
+  pages={1906--1919},
+  year={2015},
+  publisher={IEEE}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
+@article{fu2020fair,
+abbr={IEEE Access 20},
+  title={A fair comparison of message queuing systems},
+  author={Fu, Guo and Zhang, Yanfeng and Yu, Ge},
+  journal={IEEE access},
+  volume={9},
+  pages={421--432},
+  year={2020},
+  publisher={IEEE}
+}
+
+@article{zhang2016efficient,
+abbr={TKDE 16},
+  title={Efficient distributed density peaks for clustering large data sets in mapreduce},
+  author={Zhang, Yanfeng and Chen, Shimin and Yu, Ge},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={28},
+  number={12},
+  pages={3218--3230},
+  year={2016},
+  publisher={IEEE}
+}
+
+@inproceedings{wang2019sep,
+abbr={PPoPP 19},
+  title={SEP-graph: finding shortest execution paths for graph processing under a hybrid framework on GPU},
+  author={Wang, Hao and Geng, Liang and Lee, Rubao and Hou, Kaixi and Zhang, Yanfeng and Zhang, Xiaodong},
+  booktitle={Proceedings of the 24th Symposium on Principles and Practice of Parallel Programming},
+  pages={38--52},
+  year={2019}
+}
+
+@article{gong2017clustering,
+abbr={VLDB 18},
+  title={Clustering stream data by exploring the evolution of density mountain},
+  author={Gong, Shufeng and Zhang, Yanfeng and Yu, Ge},
+  journal={Proceedings of the VLDB Endowment},
+  volume={11},
+  number={4},
+  pages={393--405},
+  year={2017},
+  publisher={VLDB Endowment}
+}
+
+@inproceedings{teng2017lsbm,
+abbr={ICDCS 17},
+  title={LSbM-tree: Re-enabling buffer caching in data management for mixed reads and writes},
+  author={Teng, Dejun and Guo, Lei and Lee, Rubao and Chen, Feng and Ma, Siyuan and Zhang, Yanfeng and Zhang, Xiaodong},
+  booktitle={2017 IEEE 37th International Conference on Distributed Computing Systems (ICDCS)},
+  pages={68--79},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{wang2022neutronstar,
+abbr={SIGMOD 22},
+  title={Neutronstar: distributed GNN training with hybrid dependency management},
+  author={Wang, Qiange and Zhang, Yanfeng and Wang, Hao and Chen, Chaoyi and Zhang, Xiaodong and Yu, Ge},
+  booktitle={Proceedings of the 2022 International Conference on Management of Data},
+  pages={1301--1315},
+  year={2022}
+}
+
+@inproceedings{yin2012accelerating,
+abbr={Cluster 12},
+  title={Accelerating expectation-maximization algorithms with frequent updates},
+  author={Yin, Jiangtao and Zhang, Yanfeng and Gao, Lixin},
+  booktitle={2012 IEEE International Conference on Cluster Computing},
+  pages={275--283},
+  year={2012},
+  organization={IEEE}
+}
+
+@article{peng2022neuchain,
+abbr={VLDB 22},
+  title={Neuchain: a fast permissioned blockchain system with deterministic ordering},
+  author={Peng, Zeshun and Zhang, Yanfeng and Xu, Qian and Liu, Haixu and Gao, Yuxiao and Li, Xiaohua and Yu, Ge},
+  journal={Proceedings of the VLDB Endowment},
+  volume={15},
+  number={11},
+  pages={2585--2598},
+  year={2022},
+  publisher={VLDB Endowment}
+}
+
+@article{于戈2021区块链系统中的分布式数据管理技术,
+abbr={计算机学报},
+  title={区块链系统中的分布式数据管理技术——挑战与展望},
+  author={于戈 and 聂铁铮 and 李晓华 and 张岩峰 and 申德荣 and 鲍玉斌},
+  journal={计算机学报},
+  volume={44},
+  number={1},
+  pages={28--54},
+  year={2021}
+}
+
+@article{gong2016eddpc,
+abbr={计算机研究与发展},
+  title={EDDPC: An efficient distributed density peaks clustering algorithm},
+  author={Gong, Shufeng and Zhang, Yanfeng},
+  journal={Journal of Computer Research and Development},
+  volume={53},
   number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  pages={1400--1409},
+  year={2016}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{wang2020automating,
+abbr={SIGMOD 20},
+  title={Automating incremental and asynchronous evaluation for recursive aggregate data processing},
+  author={Wang, Qiange and Zhang, Yanfeng and Wang, Hao and Geng, Liang and Lee, Rubao and Zhang, Xiaodong and Yu, Ge},
+  booktitle={Proceedings of the 2020 ACM SIGMOD International Conference on Management of data},
+  pages={2439--2454},
+  year={2020}
 }
+
+
+@article{teng2018low,
+abbr={TOS},
+  title={A low-cost disk solution enabling LSM-tree to achieve high performance for mixed read/write workloads},
+  author={Teng, Dejun and Guo, Lei and Lee, Rubao and Chen, Feng and Zhang, Yanfeng and Ma, Siyuan and Zhang, Xiaodong},
+  journal={ACM Transactions on Storage (TOS)},
+  volume={14},
+  number={2},
+  pages={1--26},
+  year={2018},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{gong2021automating,
+abbr={VLDB 21},
+  title={Automating incremental graph processing with flexible memoization},
+  author={Gong, Shufeng and Tian, Chao and Yin, Qiang and Yu, Wenyuan and Zhang, Yanfeng and Geng, Liang and Yu, Song and Yu, Ge and Zhou, Jingren},
+  journal={Proceedings of the VLDB Endowment},
+  volume={14},
+  number={9},
+  pages={1613--1625},
+  year={2021},
+  publisher={VLDB Endowment}
+}
+
+@inproceedings{zhu2019gancoder,
+abbr={NLPCC 19},
+  title={GANCoder: an automatic natural language-to-programming language translation approach based on GAN},
+  author={Zhu, Yabing and Zhang, Yanfeng and Yang, Huili and Wang, Fangjing},
+  booktitle={Natural Language Processing and Chinese Computing: 8th CCF International Conference, NLPCC 2019, Dunhuang, China, October 9--14, 2019, Proceedings, Part II 8},
+  pages={529--539},
+  year={2019},
+  organization={Springer}
+}
+
+
+@article{wang2023have,
+abbr={WWWJ},
+  title={What have we learned from OpenReview?},
+  author={Wang, Gang and Peng, Qi and Zhang, Yanfeng and Zhang, Mingyang},
+  journal={World Wide Web},
+  volume={26},
+  number={2},
+  pages={683--708},
+  year={2023},
+  publisher={Springer}
+}
+
+@inproceedings{wang2023hytgraph,
+abbr={ICDE 23},
+  title={HyTGraph: GPU-Accelerated Graph Processing with Hybrid Transfer Management},
+  author={Wang, Qiange and Ai, Xin and Zhang, Yanfeng and Chen, Jing and Yu, Ge},
+  booktitle={2023 IEEE 39th International Conference on Data Engineering (ICDE)},
+  pages={558--571},
+  year={2023},
+  organization={IEEE}
+}
+
+@inproceedings{floratos2018sqloop,
+abbr={ICDCS 18},
+  title={Sqloop: High performance iterative processing in data management},
+  author={Floratos, Sofoklis and Zhang, Yanfeng and Yuan, Yuan and Lee, Rubao and Zhang, Xiaodong},
+  booktitle={2018 IEEE 38th International Conference on Distributed Computing Systems (ICDCS)},
+  pages={1039--1051},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{yin2018accelerating,
+abbr={JPDC 18},
+  title={Accelerating distributed Expectation--Maximization algorithms with frequent updates},
+  author={Yin, Jiangtao and Zhang, Yanfeng and Gao, Lixin},
+  journal={Journal of Parallel and Distributed Computing},
+  volume={111},
+  pages={65--75},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{yuan2024comprehensive,
+abbr={VLDB 24},
+  title={Comprehensive Evaluation of GNN Training Systems: A Data Management Perspective},
+  author={Yuan, Hao and Liu, Yajiong and Zhang, Yanfeng and Ai, Xin and Wang, Qiange and Chen, Chaoyi and Gu, Yu and Yu, Ge},
+  journal={Proceedings of the VLDB Endowment},
+  volume={17},
+  number={6},
+  pages={1241--1254},
+  year={2024},
+  publisher={VLDB Endowment}
+}
+
+@article{yao2023ragraph,
+abbr={VLDB 24},
+  title={Ragraph: A region-aware framework for geo-distributed graph processing},
+  author={Yao, Feng and Tao, Qian and Yu, Wenyuan and Zhang, Yanfeng and Gong, Shufeng and Wang, Qiange and Yu, Ge and Zhou, Jingren},
+  journal={Proceedings of the VLDB Endowment},
+  volume={17},
+  number={3},
+  pages={264--277},
+  year={2023},
+  publisher={VLDB Endowment}
+}
+
+@article{zhou2023geogauss,
+abbr={SIGMOD 23},
+  title={Geogauss: Strongly consistent and light-coordinated oltp for geo-replicated sql database},
+  author={Zhou, Weixing and Peng, Qi and Zhang, Zijie and Zhang, Yanfeng and Ren, Yang and Li, Sihao and Fu, Guo and Cui, Yulong and Li, Qiang and Wu, Caiyi and others},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={1},
+  number={1},
+  pages={1--27},
+  year={2023},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{gong2020hbp,
+abbr={ICDE 20},
+  title={HBP: Hotness balanced partition for prioritized iterative graph computations},
+  author={Gong, Shufeng and Zhang, Yanfeng and Yu, Ge},
+  booktitle={2020 IEEE 36th International Conference on Data Engineering (ICDE)},
+  pages={1942--1945},
+  year={2020},
+  organization={IEEE}
+}
+
+
+@article{ai2024neutronorch,
+abbr={VLDB 24},
+  title={NeutronOrch: Rethinking Sample-Based GNN Training under CPU-GPU Heterogeneous Environments},
+  author={Ai, Xin and Wang, Qiange and Cao, Chunyu and Zhang, Yanfeng and Chen, Chaoyi and Yuan, Hao and Gu, Yu and Yu, Ge},
+  journal={Proceedings of the VLDB Endowment},
+  volume={17},
+  number={8},
+  pages={1995--2008},
+  year={2024},
+  publisher={VLDB Endowment}
+}
+
+@article{liu2023improving,
+abbr={FGCS},
+  title={Improving density peaks clustering through GPU acceleration},
+  author={Liu, Zhuojin and Gong, Shufeng and Su, Yuxuan and Wan, Changyi and Zhang, Yanfeng and Yu, Ge},
+  journal={Future Generation Computer Systems},
+  volume={141},
+  pages={399--413},
+  year={2023},
+  publisher={Elsevier}
+}
+
+
+@article{song2023adgnn,
+abbr={SIGMOD 24},
+  title={ADGNN: towards scalable GNN training with aggregation-difference aware sampling},
+  author={Song, Zhen and Gu, Yu and Li, Tianyi and Sun, Qing and Zhang, Yanfeng and Jensen, Christian S and Yu, Ge},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={1},
+  number={4},
+  pages={1--26},
+  year={2023},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{chen2023neutronstream,
+abbr={VLDB 24},
+  title={NeutronStream: A Dynamic GNN Training Framework with Sliding Window for Graph Streams},
+  author={Chen, Chaoyi and Gao, Dechao and Zhang, Yanfeng and Wang, Qiange and Fu, Zhenbo and Zhang, Xuecang and Zhu, Junhua and Gu, Yu and Yu, Ge},
+  journal={Proceedings of the VLDB Endowment},
+  volume={17},
+  number={3},
+  pages={455--468},
+  year={2023},
+  publisher={VLDB Endowment}
+}
+
+@article{赵港2021大规模图神经网络系统综述,
+abbr={软件学报},
+  title={大规模图神经网络系统综述},
+  author={赵港 and 王千阁 and 姚烽 and 张岩峰 and 于戈},
+  journal={软件学报},
+  volume={33},
+  number={1},
+  pages={150--170}
+}
+
+
+@article{song2022versatility,
+abbr={FGCS},
+  title={Versatility or validity: A comprehensive review on simulation of datacenters powered by renewable energy mix},
+  author={Song, Jie and Zhu, Peimeng and Zhang, Yanfeng and Yu, Ge},
+  journal={Future Generation Computer Systems},
+  volume={136},
+  pages={326--341},
+  year={2022},
+  publisher={Elsevier}
+}
+
+
+@article{宋杰2016增量式迭代计算模型研究与实现,
+abbr={计算机学报},
+  title={增量式迭代计算模型研究与实现},
+  author={宋杰 and 郭朝鹏 and 张一川 and 张岩峰 and 于戈},
+  journal={计算机学报},
+  volume={1},
+  pages={109--125},
+  year={2016}
+}
+
+
+@inproceedings{yu2023layph,
+abbr={ICDE 23},
+  title={Layph: Making Change Propagation Constraint in Incremental Graph Processing by Layering Graph},
+  author={Yu, Song and Gong, Shufeng and Zhang, Yanfeng and Yu, Wenyuan and Yin, Qiang and Tian, Chao and Tao, Qian and Yan, Yongze and Yu, Ge and Zhou, Jingren},
+  booktitle={2023 IEEE 39th International Conference on Data Engineering (ICDE)},
+  pages={2766--2779},
+  year={2023},
+  organization={IEEE}
+}
+
+@article{ding2022layerlsh,
+abbr={IEEE Access},
+  title={LayerLSH: Rebuilding Locality-Sensitive Hashing Indices by Exploring Density of Hash Values},
+  author={Ding, Jiwen and Liu, Zhuojin and Zhang, Yanfeng and Gong, Shufeng and Yu, Ge},
+  journal={IEEE Access},
+  volume={10},
+  pages={69851--69865},
+  year={2022},
+  publisher={IEEE}
+}
+
+@article{liang2021end,
+abbr={IEEE Access},
+  title={An end-to-end multiplex graph neural network for graph representation learning},
+  author={Liang, Yanyan and Zhang, Yanfeng and Gao, Dechao and Xu, Qian},
+  journal={IEEE Access},
+  volume={9},
+  pages={58861--58869},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{gong2020accelerating,
+abbr={TPDS},
+  title={Accelerating large-scale prioritized graph computations by hotness balanced partition},
+  author={Gong, Shufeng and Zhang, Yanfeng and Yu, Ge},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  volume={32},
+  number={4},
+  pages={746--759},
+  year={2020},
+  publisher={IEEE}
+}
+
+@inproceedings{su2020gdpc,
+abbr={DASFAA 20},
+  title={GDPC: A GPU-accelerated density peaks clustering algorithm},
+  author={Su, Yuxuan and Zhang, Yanfeng and Wan, Changyi and Yu, Ge},
+  booktitle={International Conference on Database Systems for Advanced Applications},
+  pages={305--313},
+  year={2020},
+  organization={Springer}
+}
+
+@article{王春磊2015asyn,
+abbr={计算机研究与发展},
+  title={Asyn-SimRank: 一种可异步执行的大规模 SimRank 算法},
+  author={王春磊 and 张岩峰 and 鲍玉斌 and 赵长宽 and 于戈 and 高立新},
+  journal={计算机研究与发展},
+  volume={52},
+  number={7},
+  pages={1567--1579},
+  year={2015}
+}
+
+@inproceedings{wang2024hammer,
+abbr={ICDCS 24},
+  title={Hammer: A General Blockchain Evaluation Framework},
+  author={Wang, Gang and Zhang, Yanfeng and Ying, Chenhao and Lit, Xiaohua and Yu, Ge},
+  booktitle={2024 IEEE 44th International Conference on Distributed Computing Systems (ICDCS)},
+  pages={391--402},
+  year={2024},
+  organization={IEEE}
+}
+
+@inproceedings{zhou2024fast,
+abbr={ICDE 24},
+  title={Fast iterative graph computing with updated neighbor states},
+  author={Zhou, Yijie and Gong, Shufeng and Yao, Feng and Chen, Hanzhang and Yu, Song and Liu, Pengxi and Zhang, Yanfeng and Yu, Ge and Yu, Jeffrey Xu},
+  booktitle={2024 IEEE 40th International Conference on Data Engineering (ICDE)},
+  pages={2449--2462},
+  year={2024},
+  organization={IEEE}
+}
+
+@article{song2024cloudsimper,
+abbr={TPDS 24},
+  title={Cloudsimper: Simulating geo-distributed datacenters powered by renewable energy mix},
+  author={Song, Jie and Zhu, Peimeng and Zhang, Yanfeng and Yu, Ge},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  volume={35},
+  number={4},
+  pages={531--547},
+  year={2024},
+  publisher={IEEE}
+}
+
+
+@inproceedings{zhang2021distributed,
+abbr={APWeb 21},
+  title={Distributed graph processing: techniques and systems},
+  author={Zhang, Yanfeng and Wang, Qiange and Gong, Shufeng},
+  booktitle={Web and Big Data. APWeb-WAIM 2020 International Workshops: KGMA 2020, SemiBDMA 2020, DeepLUDA 2020, Tianjin, China, September 18--20, 2020, Revised Selected Papers 4},
+  pages={14--23},
+  year={2021},
+  organization={Springer}
+}
+
+
+@article{wang2025towards,
+abbr={TPDS 25},
+  title={Towards Communication-Efficient Out-of-Core Graph Processing on the GPU},
+  author={Wang, Qiange and Ai, Xin and Yan, Yongze and Gong, Shufeng and Zhang, Yanfeng and Chen, Jing and Yu, Ge},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  year={2025},
+  publisher={IEEE}
+}
+
+
+@article{liu2025neutronsketch,
+abbr={KBS},
+  title={NeutronSketch: An in-depth exploration of redundancy in large-scale graph neural network training},
+  author={Liu, Yajiong and Zhang, Yanfeng and Wang, Qiange and Yuan, Hao and Ai, Xin and Yu, Ge},
+  journal={Knowledge-Based Systems},
+  volume={309},
+  pages={112786},
+  year={2025},
+  publisher={Elsevier}
+}
+
+@article{yu2024lsmgraph,
+abbr={SIGMOD 25},
+  title={LSMGraph: A High-Performance Dynamic Graph Storage System with Multi-Level CSR},
+  author={Yu, Song and Gong, Shufeng and Tao, Qian and Shen, Sijie and Zhang, Yanfeng and Yu, Wenyuan and Liu, Pengxi and Zhang, Zhixin and Li, Hongfu and Luo, Xiaojian and others},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={2},
+  number={6},
+  pages={1--28},
+  year={2024},
+  publisher={ACM New York, NY, USA}
+}
+
+
+@article{yao2024towards,
+abbr={TPDS 24},
+  title={Towards Efficient Graph Processing in Geo-Distributed Data Centers},
+  author={Yao, Feng and Tao, Qian and Lin, Shengyuan and Zhang, Yanfeng and Yu, Wenyuan and Gong, Shufeng and Wang, Qiange and Yu, Ge and Zhou, Jingren},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  year={2024},
+  publisher={IEEE}
+}
+
+
+@article{song2024dynahb,
+abbr={VLDB 24},
+  title={DynaHB: A Communication-Avoiding Asynchronous Distributed Framework with Hybrid Batches for Dynamic GNN Training},
+  author={Song, Zhen and Gu, Yu and Sun, Qing and Li, Tianyi and Zhang, Yanfeng and Li, Yushuai and Jensen, Christian S and Yu, Ge},
+  journal={Proceedings of the VLDB Endowment},
+  volume={17},
+  number={11},
+  pages={3388--3401},
+  year={2024},
+  publisher={VLDB Endowment}
+}
+
+
+@inproceedings{wei2024ltpg,
+abbr={ICDE 24},
+  title={LTPG: Large-Batch Transaction Processing on GPUs with Deterministic Concurrency Control},
+  author={Wei, Jianpeng and Gu, Yu and Li, Tianyi and Qi, Jianzhong and Li, Chuanwen and Zhang, Yanfeng and Jensen, Christian S and Yu, Ge},
+  booktitle={2024 IEEE 40th International Conference on Data Engineering (ICDE)},
+  pages={3865--3877},
+  year={2024},
+  organization={IEEE}
+}
+
+@article{gong2024ingress,
+abbr={VLDBJ},
+  title={Ingress: an automated incremental graph processing system},
+  author={Gong, Shufeng and Tian, Chao and Yin, Qiang and Wang, Zhengdong and Yu, Song and Zhang, Yanfeng and Yu, Wenyuan and Geng, Liang and Fu, Chong and Yu, Ge and others},
+  journal={The VLDB Journal},
+  volume={33},
+  number={3},
+  pages={781--806},
+  year={2024},
+  publisher={Springer}
+}
+
+@article{zhang2023towards,
+  title={Towards Transaction as a Service},
+  author={Zhang, Yanfeng and Zhou, Weixing and Ren, Yang and Li, Sihao and Li, Guoliang and Yu, Ge},
+  journal={arXiv preprint arXiv:2311.07874},
+  year={2023}
+}
+
+@article{崔玉龙2021elsa,
+abbr={软件学报},
+  title={Elsa: 一种面向跨区域架构的无协调分布式键值存储系统},
+  author={崔玉龙 and 付国 and 张岩峰 and 于戈},
+  journal={软件学报},
+  volume={34},
+  number={5},
+  pages={2427--2445},
+  year={2021}
+}
+
+
+@article{李金吉2018流式处理的异步图处理框架,
+abbr={软件学报},
+  title={流式处理的异步图处理框架},
+  author={李金吉 and 张岩峰 and 巩树凤 and 于戈 and 高立新},
+  journal={软件学报},
+  volume={29},
+  number={3},
+  pages={528--544},
+  year={2018}
+}
+
+
