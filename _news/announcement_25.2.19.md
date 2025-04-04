@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper entitled "Towards Communication-Efficient Out-of-Core Graph Processing on the GPU" is accepted by TPDS!
+Our paper "Towards Communication-Efficient Out-of-Core Graph Processing on the GPU" is accepted by TPDS!
