@@ -1,6 +1,25 @@
 ---
 ---
 
+@article{10.14778/3704965.3704986,
+abbr={VLDB 25},
+author = {Li, Hongfu and Tao, Qian and Yu, Song and Gong, Shufeng and Zhang, Yanfeng and Yao, Feng and Yu, Wenyuan and Yu, Ge and Zhou, Jingren},
+title = {GastCoCo: Graph Storage and Coroutine-Based Prefetch Co-Design for Dynamic Graph Processing},
+year = {2025},
+issue_date = {September 2024},
+publisher = {VLDB Endowment},
+volume = {17},
+number = {13},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3704965.3704986},
+doi = {10.14778/3704965.3704986},
+abstract = {An efficient data structure is fundamental to meeting the growing demands in dynamic graph processing. However, the dual requirements for graph computation efficiency (with contiguous structures) and graph update efficiency (with linked list-like structures) present a conflict in the design principles of graph structures. After experimental studies of state-of-the-art dynamic graph structures, we observe that the overhead of cache misses accounts for a major portion of the graph computation time. This paper presents GastCoCo, a system with graph storage and coroutine-based prefetch co-design. By employing software prefetching via stackless coroutines and designing a prefetch-friendly data structure CBList, GastCoCo significantly alleviates the performance degradation caused by cache misses. Our results show that GastCoCo outperforms state-of-the-art graph storage systems by 1.3\texttimes{} - 180\texttimes{} in graph updates and 1.4\texttimes{} - 41.1\texttimes{} in graph computation.},
+journal = {Proc. VLDB Endow.},
+month = feb,
+pages = {4827–4839},
+numpages = {13}
+}
+
 @article{10.14778/3705829.3705837,
 abbr={VLDB 25},
 author = {Ai, Xin and Yuan, Hao and Ling, Zeyu and Wang, Qiange and Zhang, Yanfeng and Fu, Zhenbo and Chen, Chaoyi and Gu, Yu and Yu, Ge},
@@ -15,11 +34,36 @@ url = {https://doi.org/10.14778/3705829.3705837},
 doi = {10.14778/3705829.3705837},
 abstract = {Graph neural networks (GNNs) have emerged as a promising direction. Training large-scale graphs that relies on distributed computing power poses new challenges. Existing distributed GNN systems leverage data parallelism by partitioning the input graph and distributing it to multiple workers. However, due to the irregular nature of the graph structure, existing distributed approaches suffer from unbalanced workloads and high overhead in managing cross-worker vertex dependencies.In this paper, we leverage tensor parallelism for distributed GNN training. GNN tensor parallelism eliminates cross-worker vertex dependencies by partitioning features instead of graph structures. Different workers are assigned training tasks on different feature slices with the same dimensional size, leading to a complete load balance. We achieve efficient GNN tensor parallelism through two critical functions. Firstly, we employ a generalized decoupled training framework to decouple NN operations from graph aggregation operations, significantly reducing the communication overhead caused by NN operations which must be computed using complete features. Secondly, we employ a memory-efficient task scheduling strategy to support the training of large graphs exceeding single GPU memory, while further improving performance by overlapping communication and computation. By integrating the above techniques, we propose a distributed GNN training system NeutronTP. Our experimental results on a 16-node Aliyun cluster demonstrate that NeutronTP achieves 1.29\texttimes{}-8.72\texttimes{} speedup over state-of-the-art GNN systems including DistDGL, NeutronStar, and Sancus.},
 google_scholar_id={qyhmnyLat1gC},
+code={https://github.com/iDC-NEU/NeutronTP},
+pdf={2025-vldb-neutrontp.pdf},
 journal = {Proc. VLDB Endow.},
 month = feb,
 pages = {173–186},
 numpages = {14}
 }
+
+@InProceedings{10.1007/978-981-96-1093-8_42,
+abbr={COCOON 24},
+author="Gong, Shufeng
+and Zhang, Zhixin
+and Lu, Jing
+and Zhang, Yanfeng
+and Fu, Cong
+and Yu, Ge",
+editor="Chen, Yong
+and Gao, Xiaofeng
+and Sun, Xiaoming
+and Zhang, An",
+title="Accelerating Topic-Sensitive PageRank by Exploiting the Query History",
+booktitle="Computing and Combinatorics",
+year="2024",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="514--525",
+abstract="Topic-Sensitive PageRank (TSPR) is a widely used algorithm in recommender systems and machine learning. However, the TSPR query is time-consuming as it requires multiple rounds of iterative computation. To accelerate the TSPR query, we propose an efficient TSPR query algorithm, {\$}{\$}{\backslash}textsf{\{}FasTSPR{\}}{\$}{\$}FasTSPR, that accelerates the TSPR query by exploiting the previous TSPR query. Specifically, {\$}{\$}{\backslash}textsf{\{}FasTSPR{\}}{\$}{\$}FasTSPRborrows the computation result of the previous TSPR query when performing the current TSPR query, avoiding redundant calculations and thus accelerating the TSPR query.",
+isbn="978-981-96-1093-8"
+}
+
 
 @article{zhang2012imapreduce,
   abbr={JGC},
@@ -259,6 +303,9 @@ abbr={VLDB 24},
   number={6},
   pages={1241--1254},
   year={2024},
+  code={https://github.com/iDC-NEU/NeutronBench},
+  pdf={2024-vldb-neutronbench.pdf},
+  slides={},
   publisher={VLDB Endowment}
 }
 
@@ -271,6 +318,9 @@ abbr={VLDB 24},
   number={3},
   pages={264--277},
   year={2023},
+  code={https://github.com/iDC-NEU/RAGraph},
+  pdf={2024-tpds-geo graph.pdf},
+  slides={RAGraph_VLDB24.pdf},
   publisher={VLDB Endowment}
 }
 
@@ -485,7 +535,7 @@ abbr={SIGMOD 25},
   volume={2},
   number={6},
   pages={1--28},
-  year={2024},
+  year={2025},
   publisher={ACM New York, NY, USA}
 }
 
