@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2025-02-19 15:59:00-0400
+inline: true
+related_posts: false
+---
+
+Our paper entitled "NeutronTask: Scalable and Efficient Multi-GPU GNN Training with Task Parallelism" is accepted by VLDB 26!
