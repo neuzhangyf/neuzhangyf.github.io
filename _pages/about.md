@@ -6,7 +6,7 @@ subtitle: <a href='https://www.neu.edu.cn/'>Northeastern University</a>
 
 profile:
   align: right
-  image: head2.jpeg
+  image: head3.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>B233 Xinxi Building</p>
