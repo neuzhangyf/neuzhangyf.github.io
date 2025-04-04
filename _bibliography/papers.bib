@@ -4,6 +4,7 @@
 @string{aps = {American Physical Society,}}
 
 @article{10.14778/3705829.3705837,
+abbr={VLDB 25},
 author = {Ai, Xin and Yuan, Hao and Ling, Zeyu and Wang, Qiange and Zhang, Yanfeng and Fu, Zhenbo and Chen, Chaoyi and Gu, Yu and Yu, Ge},
 title = {NeutronTP: Load-Balanced Distributed Full-Graph GNN Training with Tensor Parallelism},
 year = {2025},
@@ -15,28 +16,22 @@ issn = {2150-8097},
 url = {https://doi.org/10.14778/3705829.3705837},
 doi = {10.14778/3705829.3705837},
 abstract = {Graph neural networks (GNNs) have emerged as a promising direction. Training large-scale graphs that relies on distributed computing power poses new challenges. Existing distributed GNN systems leverage data parallelism by partitioning the input graph and distributing it to multiple workers. However, due to the irregular nature of the graph structure, existing distributed approaches suffer from unbalanced workloads and high overhead in managing cross-worker vertex dependencies.In this paper, we leverage tensor parallelism for distributed GNN training. GNN tensor parallelism eliminates cross-worker vertex dependencies by partitioning features instead of graph structures. Different workers are assigned training tasks on different feature slices with the same dimensional size, leading to a complete load balance. We achieve efficient GNN tensor parallelism through two critical functions. Firstly, we employ a generalized decoupled training framework to decouple NN operations from graph aggregation operations, significantly reducing the communication overhead caused by NN operations which must be computed using complete features. Secondly, we employ a memory-efficient task scheduling strategy to support the training of large graphs exceeding single GPU memory, while further improving performance by overlapping communication and computation. By integrating the above techniques, we propose a distributed GNN training system NeutronTP. Our experimental results on a 16-node Aliyun cluster demonstrate that NeutronTP achieves 1.29\texttimes{}-8.72\texttimes{} speedup over state-of-the-art GNN systems including DistDGL, NeutronStar, and Sancus.},
+google_scholar_id={qyhmnyLat1gC},
 journal = {Proc. VLDB Endow.},
 month = feb,
 pages = {173–186},
 numpages = {14}
 }
 
-@article{10.14778/3705829.3705837,
-author = {Ai, Xin and Yuan, Hao and Ling, Zeyu and Wang, Qiange and Zhang, Yanfeng and Fu, Zhenbo and Chen, Chaoyi and Gu, Yu and Yu, Ge},
-title = {NeutronTP: Load-Balanced Distributed Full-Graph GNN Training with Tensor Parallelism},
-year = {2025},
-issue_date = {October 2024},
-publisher = {VLDB Endowment},
-volume = {18},
-number = {2},
-issn = {2150-8097},
-url = {https://doi.org/10.14778/3705829.3705837},
-doi = {10.14778/3705829.3705837},
-abstract = {Graph neural networks (GNNs) have emerged as a promising direction. Training large-scale graphs that relies on distributed computing power poses new challenges. Existing distributed GNN systems leverage data parallelism by partitioning the input graph and distributing it to multiple workers. However, due to the irregular nature of the graph structure, existing distributed approaches suffer from unbalanced workloads and high overhead in managing cross-worker vertex dependencies.In this paper, we leverage tensor parallelism for distributed GNN training. GNN tensor parallelism eliminates cross-worker vertex dependencies by partitioning features instead of graph structures. Different workers are assigned training tasks on different feature slices with the same dimensional size, leading to a complete load balance. We achieve efficient GNN tensor parallelism through two critical functions. Firstly, we employ a generalized decoupled training framework to decouple NN operations from graph aggregation operations, significantly reducing the communication overhead caused by NN operations which must be computed using complete features. Secondly, we employ a memory-efficient task scheduling strategy to support the training of large graphs exceeding single GPU memory, while further improving performance by overlapping communication and computation. By integrating the above techniques, we propose a distributed GNN training system NeutronTP. Our experimental results on a 16-node Aliyun cluster demonstrate that NeutronTP achieves 1.29\texttimes{}-8.72\texttimes{} speedup over state-of-the-art GNN systems including DistDGL, NeutronStar, and Sancus.},
-journal = {Proc. VLDB Endow.},
-month = feb,
-pages = {173–186},
-numpages = {14}
+@article{zhang2012imapreduce,
+  abbr={JGC},
+  title={imapreduce: A Distributed Computing Framework for Iterative Computation},
+  author={Zhang, Yanfeng and Gao, Qixin and Gao, Lixin and Wang, Cuirong},
+  journal={Journal of Grid Computing},
+  volume={10},
+  pages={47--68},
+  year={2012},
+  publisher={Springer}
 }
 
 @book{einstein1956investigations,
