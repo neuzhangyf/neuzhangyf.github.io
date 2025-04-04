@@ -497,13 +497,6 @@ ninja.data = [{
           window.open("https://dl.acm.org/profile//", "_blank");
         },
       },{
-        id: 'social-dblp',
-        title: 'DBLP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://dblp.org/pid/66/2444.html", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
