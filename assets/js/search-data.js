@@ -412,16 +412,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-our-paper-entitled-neutrontask-scalable-and-efficient-multi-gpu-gnn-training-with-task-parallelism-is-accepted-by-vldb-26",
+          title: 'Our paper entitled “NeutronTask: Scalable and Efficient Multi-GPU GNN Training with Task Parallelism”...',
+          description: "",
+          section: "News",},{id: "news-our-paper-entitled-towards-communication-efficient-out-of-core-graph-processing-on-the-gpu-is-accepted-by-tpds",
+          title: 'Our paper entitled “Towards Communication-Efficient Out-of-Core Graph Processing on the GPU” is accepted...',
+          description: "",
+          section: "News",},{id: "news-our-paper-entitled-neutronrag-towards-understanding-the-effectiveness-of-rag-from-a-data-retrieval-perspective-is-accepted-by-sigmod-2025-s-demo-track",
+          title: 'Our paper entitled “NeutronRAG: Towards Understanding the Effectiveness of RAG from a Data...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
