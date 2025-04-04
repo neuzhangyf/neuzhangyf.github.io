@@ -29,8 +29,16 @@
       "url": "http://faculty.neu.edu.cn/zhangyf/",
       "startDate": "2012-09-01",
       "endDate": "",
-      "summary": "I am leading iDC-NEU Lab and like building data systems.",
+      "summary": "I like building data systems.",
       "highlights": ["Data Systems", "Databases", "Systems for AI"]
+    },
+    {
+      "name": "Department of Electrical and Computer Engineering, Ohio State University",
+      "position": "Visting Scholar",
+      "url": "http://faculty.neu.edu.cn/zhangyf/",
+      "startDate": "2016-12-01",
+      "endDate": "2017-12-01",
+      "summary": "Host Professor: Xiaodong Zhang (ACM/IEEE Fellow)."
     }
   ],
   "volunteer": [
