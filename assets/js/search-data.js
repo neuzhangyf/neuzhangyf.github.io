@@ -426,6 +426,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-towards-communication-efficient-out-of-core-graph-processing-on-the-gpu-is-accepted-by-tpds",
           title: 'Our paper “Towards Communication-Efficient Out-of-Core Graph Processing on the GPU” is accepted by...',
           description: "",
+          section: "News",},{id: "news-our-paper-面向跨地理区域联盟链的事务处理技术-is-accepted-by-软件学报",
+          title: 'Our paper “面向跨地理区域联盟链的事务处理技术” is accepted by 《软件学报》!',
+          description: "",
           section: "News",},{id: "news-our-paper-entitled-neutronrag-towards-understanding-the-effectiveness-of-rag-from-a-data-retrieval-perspective-is-accepted-by-sigmod-2025-s-demo-track",
           title: 'Our paper entitled “NeutronRAG: Towards Understanding the Effectiveness of RAG from a Data...',
           description: "",
@@ -464,9 +467,9 @@ ninja.data = [{
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NVMDB/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-neutron",
+          title: 'Neutron',
+          description: "Graph Neural Network Framework",
           section: "Projects",handler: () => {
               window.location.href = "/projects/neutron/";
             },},{id: "projects-neutronrag",
