@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.neu.edu.cn/'>Northeastern University</a>
+subtitle: <a href='https://www.neu.edu.cn/'>Professor, Northeastern University</a>
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p>Northeastern University (Hunnan Campus)</p>
     <p>Shenyang, Liaoning, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
