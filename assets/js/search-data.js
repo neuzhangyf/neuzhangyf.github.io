@@ -432,46 +432,31 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-entitled-neutronrag-towards-understanding-the-effectiveness-of-rag-from-a-data-retrieval-perspective-is-accepted-by-sigmod-2025-s-demo-track",
           title: 'Our paper entitled “NeutronRAG: Towards Understanding the Effectiveness of RAG from a Data...',
           description: "",
-          section: "News",},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-ccaas",
-          title: 'CCaaS',
-          description: "Concurrency Control as a Service",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/CCaaS/";
-            },},{id: "projects-jittor-geometric",
+          section: "News",},{id: "projects-jittor-geometric",
           title: 'Jittor Geometric',
           description: "GNN library for Jittor",
           section: "Projects",handler: () => {
               window.location.href = "/projects/JittorGeometric/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-nvmdb",
+          title: 'NVMDB',
+          description: "The NVM-based storage engine for HelmDB, a new-hardware empowered database",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NVMDB/";
+            },},{id: "projects-taas",
+          title: 'TaaS',
+          description: "Transaction as a Service",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/TaaS/";
             },},{id: "projects-neutron",
           title: 'Neutron',
           description: "Graph Neural Network Framework",
           section: "Projects",handler: () => {
               window.location.href = "/projects/neutron/";
+            },},{id: "projects-neutronbase",
+          title: 'NeutronBase',
+          description: "A Graph-Vector Unified Database for Generative AI and RAG",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/neutronbase/";
             },},{id: "projects-neutronrag",
           title: 'NeutronRAG',
           description: "A RAG system for vector-graph hybrid RAG",
