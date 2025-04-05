@@ -3,7 +3,7 @@ layout: page
 title: Neutron: GNN Training Framework
 description: with background image
 img: assets/img/neutron.png
-importance: 1
+importance: 3
 category: work
 related_publications: true
 ---
