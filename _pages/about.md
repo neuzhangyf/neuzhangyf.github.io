@@ -31,5 +31,4 @@ I am a professor of <a href='http://www.cse.neu.edu.cn/'>School of Computer Scie
 
 I am leading <a href='https://idc-neu.github.io/'>iDC-NEU group</a> where many enthusiastic and talent students work together. My research interest focuses on building data systems including database systems, graph processing systems, and systems for AI. I am also working with several industry groups, including Huawei's GaussDB, Alibaba's Damo Academy, Ant's TuGraph, and so on. 
 
-# I am teaching several courses including Intelligent Computing Systems (Undergraduate), Advanced Distributed Systems (Postgraduate), and Big Data Mining and Distributed Processing (Postgraduate).
 
