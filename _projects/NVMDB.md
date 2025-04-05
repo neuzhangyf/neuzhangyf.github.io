@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: NVMDB
+description: The NVM-based storage engine for HelmDB, a new-hardware empowered database
+img: assets/img/nvmdb.png
+importance: 1
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

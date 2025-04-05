@@ -1,11 +1,10 @@
 ---
 layout: page
-title: CCaaS
-description: Concurrency Control as a Service
-img: assets/img/3.jpg
-importance: 2
+title: NeutronBase
+description: A Graph-Vector Unified Database for Generative AI and RAG 
+img:
+importance: 4
 category: work
-giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
