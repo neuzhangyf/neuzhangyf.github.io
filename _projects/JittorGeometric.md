@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: Jittor Geometric
+description: GNN library for Jittor
+img: assets/img/jittorG.png
 redirect: https://unsplash.com
 importance: 3
 category: work
@@ -18,7 +18,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: /assets/img/jittorG.png
     ---
 
 <div class="row">
