@@ -429,32 +429,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-entitled-neutronrag-towards-understanding-the-effectiveness-of-rag-from-a-data-retrieval-perspective-is-accepted-by-sigmod-2025-s-demo-track",
           title: 'Our paper entitled “NeutronRAG: Towards Understanding the Effectiveness of RAG from a Data...',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
+          section: "News",},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
@@ -474,6 +449,31 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-ccaas",
+          title: 'CCaaS',
+          description: "Concurrency Control as a Service",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CCaaS/";
+            },},{id: "projects-jittor-geometric",
+          title: 'Jittor Geometric',
+          description: "GNN library for Jittor",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/JittorGeometric/";
+            },},{id: "projects-project-4",
+          title: 'project 4',
+          description: "another without an image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/NVMDB/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/neutron/";
+            },},{id: "projects-neutronrag",
+          title: 'NeutronRAG',
+          description: "A RAG system for vector-graph hybrid RAG",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/neutronrag/";
             },},{
         id: 'social-email',
         title: 'email',
