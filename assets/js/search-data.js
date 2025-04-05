@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "I am teaching &quot;Intelligent Computing Systems&quot; for undergraduates, and &quot;Advanced Distributed Systems&quot; for postgraduates. I also participate in some courses, including &quot;AIGC Techniques and Applications&quot;, and &quot;Big Data Mining and Distributed Processing&quot;.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -429,9 +429,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-entitled-neutronrag-towards-understanding-the-effectiveness-of-rag-from-a-data-retrieval-perspective-is-accepted-by-sigmod-2025-s-demo-track",
           title: 'Our paper entitled “NeutronRAG: Towards Understanding the Effectiveness of RAG from a Data...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
