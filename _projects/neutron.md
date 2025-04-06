@@ -3,7 +3,7 @@ layout: page
 title: Neutron
 description: Graph Neural Network Framework
 img: assets/img/neutron.png
-importance: 3
+importance: 1
 category: work
 related_publications: true
 ---

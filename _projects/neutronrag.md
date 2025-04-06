@@ -2,8 +2,8 @@
 layout: page
 title: NeutronRAG
 description: A RAG system for vector-graph hybrid RAG
-img: assets/img/1.jpg
-importance: 3
+img: 
+importance: 2
 category: work
 ---
 

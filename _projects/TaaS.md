@@ -2,7 +2,7 @@
 layout: page
 title: TaaS
 description: Transaction as a Service
-img: assets/img/taas.png
+img: 
 importance: 2
 category: work
 giscus_comments: true

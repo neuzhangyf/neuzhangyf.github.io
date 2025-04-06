@@ -1,8 +1,8 @@
 ---
 layout: page
-title: NVMDB
+title: HelmDB
 description: The NVM-based storage engine for HelmDB, a new-hardware empowered database
-img: assets/img/nvmdb.png
+img: 
 importance: 1
 category: work
 ---
