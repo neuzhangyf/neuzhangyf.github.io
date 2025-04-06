@@ -509,28 +509,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-logo',
-        title: 'Logo',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-title',
-        title: 'Title',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-url',
-        title: 'Url',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
+          window.open("https://idc-neu.github.io/", "_blank");
         },
       },{
       id: 'light-theme',
