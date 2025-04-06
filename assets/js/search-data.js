@@ -477,11 +477,18 @@ ninja.data = [{
           window.open("mailto:%7A%68%61%6E%67%79%66@%6D%61%69%6C.%6E%65%75.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
+        id: 'social-orcid',
+        title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/zhangyf@mail.neu.edu.cn", "_blank");
+          window.open("https://orcid.org/0000-0002-9871-0304", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -489,6 +496,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=Bw90kcYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-wechat_qr',
+        title: 'Wechat_qr',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
         id: 'social-custom_social',
