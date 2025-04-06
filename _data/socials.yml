@@ -46,6 +46,6 @@ wechat_qr: wechat-qr.png # filename of your wechat qr-code saved as an image (e.
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-logo: icon.png # https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-title: iDC-NEU
-url: https://idc-neu.github.io/
+  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+  title: iDC-NEU
+  url: https://idc-neu.github.io/
