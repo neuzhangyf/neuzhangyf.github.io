@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: I am teaching "Intelligent Computing Systems" for undergraduates, and "Advanced Distributed Systems" for postgraduates. I also participate in some courses, including "AIGC Techniques and Applications", and "Big Data Mining and Distributed Processing".
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
 <a href=''>Intelligent Computing Systems (for undergraduates)</a>

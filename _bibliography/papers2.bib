@@ -2,101 +2,93 @@
 ---
 
 @article{10.14778/3704965.3704986,
-	abbr={VLDB 25},
-	author = {Li, Hongfu and Tao, Qian and Yu, Song and Gong, Shufeng and Zhang, Yanfeng and Yao, Feng and Yu, Wenyuan and Yu, Ge and Zhou, Jingren},
-	title = {GastCoCo: Graph Storage and Coroutine-Based Prefetch Co-Design for Dynamic Graph Processing},
-	year = {2025},
-	issue_date = {September 2024},
-	publisher = {VLDB Endowment},
-	volume = {17},
-	number = {13},
-	issn = {2150-8097},
-	url = {https://doi.org/10.14778/3704965.3704986},
-	doi = {10.14778/3704965.3704986},
-	abstract = {An efficient data structure is fundamental to meeting the growing demands in dynamic graph processing. However, the dual requirements for graph computation efficiency (with contiguous structures) and graph update efficiency (with linked list-like structures) present a conflict in the design principles of graph structures. After experimental studies of state-of-the-art dynamic graph structures, we observe that the overhead of cache misses accounts for a major portion of the graph computation time. This paper presents GastCoCo, a system with graph storage and coroutine-based prefetch co-design. By employing software prefetching via stackless coroutines and designing a prefetch-friendly data structure CBList, GastCoCo significantly alleviates the performance degradation caused by cache misses. Our results show that GastCoCo outperforms state-of-the-art graph storage systems by 1.3\texttimes{} - 180\texttimes{} in graph updates and 1.4\texttimes{} - 41.1\texttimes{} in graph computation.},
-	journal={Proceedings of the VLDB Endowment},
-	month={feb},
-	code={https://github.com/GorgeouszzZ/GastCoCo},
-	pdf={paper-2025-vldb-gastcoco.pdf},
-	slides={},
-	google_scholar_id={},
-	pages={4827–4839},
-	numpages={13}
+abbr={VLDB 25},
+author = {Li, Hongfu and Tao, Qian and Yu, Song and Gong, Shufeng and Zhang, Yanfeng and Yao, Feng and Yu, Wenyuan and Yu, Ge and Zhou, Jingren},
+title = {GastCoCo: Graph Storage and Coroutine-Based Prefetch Co-Design for Dynamic Graph Processing},
+year = {2025},
+issue_date = {September 2024},
+publisher = {VLDB Endowment},
+volume = {17},
+number = {13},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3704965.3704986},
+doi = {10.14778/3704965.3704986},
+abstract = {An efficient data structure is fundamental to meeting the growing demands in dynamic graph processing. However, the dual requirements for graph computation efficiency (with contiguous structures) and graph update efficiency (with linked list-like structures) present a conflict in the design principles of graph structures. After experimental studies of state-of-the-art dynamic graph structures, we observe that the overhead of cache misses accounts for a major portion of the graph computation time. This paper presents GastCoCo, a system with graph storage and coroutine-based prefetch co-design. By employing software prefetching via stackless coroutines and designing a prefetch-friendly data structure CBList, GastCoCo significantly alleviates the performance degradation caused by cache misses. Our results show that GastCoCo outperforms state-of-the-art graph storage systems by 1.3\texttimes{} - 180\texttimes{} in graph updates and 1.4\texttimes{} - 41.1\texttimes{} in graph computation.},
+journal = {Proc. VLDB Endow.},
+month = feb,
+pages = {4827–4839},
+numpages = {13}
 }
 
 @article{10.14778/3705829.3705837,
-	abbr={VLDB 25},
-	author = {Ai, Xin and Yuan, Hao and Ling, Zeyu and Wang, Qiange and Zhang, Yanfeng and Fu, Zhenbo and Chen, Chaoyi and Gu, Yu and Yu, Ge},
-	title = {NeutronTP: Load-Balanced Distributed Full-Graph GNN Training with Tensor Parallelism},
-	year = {2025},
-	issue_date = {October 2024},
-	publisher = {VLDB Endowment},
-	volume = {18},
-	number = {2},
-	issn = {2150-8097},
-	url = {https://doi.org/10.14778/3705829.3705837},
-	doi = {10.14778/3705829.3705837},
-	abstract = {Graph neural networks (GNNs) have emerged as a promising direction. Training large-scale graphs that relies on distributed computing power poses new challenges. Existing distributed GNN systems leverage data parallelism by partitioning the input graph and distributing it to multiple workers. However, due to the irregular nature of the graph structure, existing distributed approaches suffer from unbalanced workloads and high overhead in managing cross-worker vertex dependencies.In this paper, we leverage tensor parallelism for distributed GNN training. GNN tensor parallelism eliminates cross-worker vertex dependencies by partitioning features instead of graph structures. Different workers are assigned training tasks on different feature slices with the same dimensional size, leading to a complete load balance. We achieve efficient GNN tensor parallelism through two critical functions. Firstly, we employ a generalized decoupled training framework to decouple NN operations from graph aggregation operations, significantly reducing the communication overhead caused by NN operations which must be computed using complete features. Secondly, we employ a memory-efficient task scheduling strategy to support the training of large graphs exceeding single GPU memory, while further improving performance by overlapping communication and computation. By integrating the above techniques, we propose a distributed GNN training system NeutronTP. Our experimental results on a 16-node Aliyun cluster demonstrate that NeutronTP achieves 1.29\texttimes{}-8.72\texttimes{} speedup over state-of-the-art GNN systems including DistDGL, NeutronStar, and Sancus.},
-	google_scholar_id={qyhmnyLat1gC},
-	code={https://github.com/iDC-NEU/NeutronTP},
-	pdf={2025-vldb-neutrontp.pdf},
-	journal={Proceedings of the VLDB Endowment},
-	month={feb},
-	code={https://github.com/iDC-NEU/NeutronTP},
-	pdf={paper-2025-vldb-NeutronTP.pdf},
-	slides={},
-	google_scholar_id={},
-	pages = {173–186},
-	numpages = {14}
+abbr={VLDB 25},
+author = {Ai, Xin and Yuan, Hao and Ling, Zeyu and Wang, Qiange and Zhang, Yanfeng and Fu, Zhenbo and Chen, Chaoyi and Gu, Yu and Yu, Ge},
+title = {NeutronTP: Load-Balanced Distributed Full-Graph GNN Training with Tensor Parallelism},
+year = {2025},
+issue_date = {October 2024},
+publisher = {VLDB Endowment},
+volume = {18},
+number = {2},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3705829.3705837},
+doi = {10.14778/3705829.3705837},
+abstract = {Graph neural networks (GNNs) have emerged as a promising direction. Training large-scale graphs that relies on distributed computing power poses new challenges. Existing distributed GNN systems leverage data parallelism by partitioning the input graph and distributing it to multiple workers. However, due to the irregular nature of the graph structure, existing distributed approaches suffer from unbalanced workloads and high overhead in managing cross-worker vertex dependencies.In this paper, we leverage tensor parallelism for distributed GNN training. GNN tensor parallelism eliminates cross-worker vertex dependencies by partitioning features instead of graph structures. Different workers are assigned training tasks on different feature slices with the same dimensional size, leading to a complete load balance. We achieve efficient GNN tensor parallelism through two critical functions. Firstly, we employ a generalized decoupled training framework to decouple NN operations from graph aggregation operations, significantly reducing the communication overhead caused by NN operations which must be computed using complete features. Secondly, we employ a memory-efficient task scheduling strategy to support the training of large graphs exceeding single GPU memory, while further improving performance by overlapping communication and computation. By integrating the above techniques, we propose a distributed GNN training system NeutronTP. Our experimental results on a 16-node Aliyun cluster demonstrate that NeutronTP achieves 1.29\texttimes{}-8.72\texttimes{} speedup over state-of-the-art GNN systems including DistDGL, NeutronStar, and Sancus.},
+google_scholar_id={qyhmnyLat1gC},
+code={https://github.com/iDC-NEU/NeutronTP},
+pdf={2025-vldb-neutrontp.pdf},
+journal = {Proc. VLDB Endow.},
+month = feb,
+pages = {173–186},
+numpages = {14}
 }
 
-@inproceedings{gong2024accelerating,
-  abbr={COCOON 24},
-  title={Accelerating Topic-Sensitive PageRank by Exploiting the Query History},
-  author={Gong, Shufeng and Zhang, Zhixin and Lu, Jing and Zhang, Yanfeng and Fu, Cong and Yu, Ge},
-  booktitle={International Computing and Combinatorics Conference},
-  pages={514--525},
-  year={2024},
-  month={aug},
-  code={},
-  pdf={paper-2024-cocoon-topic sensitive.pdf},
-  slides={slide-2024-cocoon-topic sensitive.pdf},
-  google_scholar_id={wKETBy42zhYC},
-  organization={Springer}
+@InProceedings{10.1007/978-981-96-1093-8_42,
+abbr={COCOON 24},
+author="Gong, Shufeng
+and Zhang, Zhixin
+and Lu, Jing
+and Zhang, Yanfeng
+and Fu, Cong
+and Yu, Ge",
+editor="Chen, Yong
+and Gao, Xiaofeng
+and Sun, Xiaoming
+and Zhang, An",
+title="Accelerating Topic-Sensitive PageRank by Exploiting the Query History",
+booktitle="Computing and Combinatorics",
+year="2024",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="514--525",
+abstract="Topic-Sensitive PageRank (TSPR) is a widely used algorithm in recommender systems and machine learning. However, the TSPR query is time-consuming as it requires multiple rounds of iterative computation. To accelerate the TSPR query, we propose an efficient TSPR query algorithm, {\$}{\$}{\backslash}textsf{\{}FasTSPR{\}}{\$}{\$}FasTSPR, that accelerates the TSPR query by exploiting the previous TSPR query. Specifically, {\$}{\$}{\backslash}textsf{\{}FasTSPR{\}}{\$}{\$}FasTSPRborrows the computation result of the previous TSPR query when performing the current TSPR query, avoiding redundant calculations and thus accelerating the TSPR query.",
+isbn="978-981-96-1093-8"
 }
+
 
 @article{zhang2012imapreduce,
-	abbr={JGC},
-	title={imapreduce: A Distributed Computing Framework for Iterative Computation},
-	author={Zhang, Yanfeng and Gao, Qixin and Gao, Lixin and Wang, Cuirong},
-	journal={Journal of Grid Computing},
-	volume={10},
-	pages={47--68},
-	year={2012},
-	month={mar},
-	code={},
-	pdf={paper-2012-jgc-iMapReduce.pdf},
-	slides={},
-	google_scholar_id={HtS1dXgVpQUC},
-	publisher={Springer}
+  abbr={JGC},
+  title={imapreduce: A Distributed Computing Framework for Iterative Computation},
+  author={Zhang, Yanfeng and Gao, Qixin and Gao, Lixin and Wang, Cuirong},
+  journal={Journal of Grid Computing},
+  volume={10},
+  pages={47--68},
+  month=mar,
+  year={2012},
+  google_scholar_id={HtS1dXgVpQUC},
+  publisher={Springer}
 }
 
 @inproceedings{zhang2011priter,
-  abbr={SoCC 11},
+abbr={SoCC 11},
   title={PrIter: A Distributed Framework for Prioritized Iterative Computations},
   author={Zhang, Yanfeng and Gao, Qixin and Gao, Lixin and Wang, Cuirong},
   booktitle={Proceedings of the 2nd ACM Symposium on Cloud Computing},
   pages={1--14},
-  year={2011},
-  month={oct},
-  code={},
-  pdf={paper-2011-socc-PrIter.pdf},
-  slides={},
-  google_scholar_id={gVv57TyPmFsC}
+  year={2011}
 }
 
 @article{zhang2013maiter,
-  abbr={TPDS 13},
+abbr={TPDS 13},
   title={Maiter: An Asynchronous Graph Processing Framework for Delta-based Accumulative Iterative Computation},
   author={Zhang, Yanfeng and Gao, Qixin and Gao, Lixin and Wang, Cuirong},
   journal={IEEE Transactions on Parallel and Distributed Systems},
@@ -104,17 +96,12 @@
   number={8},
   pages={2091--2100},
   year={2013},
-  month={sep},
-  code={},
-  pdf={paper-2013-tpds-Maiter.pdf},
-  slides={},
-  google_scholar_id={FiytvqdAVhgC},
   publisher={IEEE}
 }
 
 
 @article{zhang20152,
-  abbr={TKDE 15},
+abbr={TKDE 15},
   title={i $\^{} 2$ Mapreduce: Incremental Mapreduce for Mining Evolving Big Data},
   author={Zhang, Yanfeng and Chen, Shimin and Wang, Qiang and Yu, Ge},
   journal={IEEE Transactions on Knowledge and Data Engineering},
@@ -122,32 +109,22 @@
   number={7},
   pages={1906--1919},
   year={2015},
-  month={feb},
-  code={},
-  pdf={paper-2015-tkde-i2MapReduce.pdf},
-  slides={},
-  google_scholar_id={kw52XkFRtyQC},
   publisher={IEEE}
 }
 
 @article{fu2020fair,
-  abbr={IEEE Access 20},
+abbr={IEEE Access 20},
   title={A fair comparison of message queuing systems},
   author={Fu, Guo and Zhang, Yanfeng and Yu, Ge},
   journal={IEEE access},
   volume={9},
   pages={421--432},
   year={2020},
-  month={dec},
-  code={},
-  pdf={paper-2020-access-message queuing.pdf},
-  slides={},
-  google_scholar_id={Bg7qf7VwUHIC},
   publisher={IEEE}
 }
 
 @article{zhang2016efficient,
-  abbr={TKDE 16},
+abbr={TKDE 16},
   title={Efficient distributed density peaks for clustering large data sets in mapreduce},
   author={Zhang, Yanfeng and Chen, Shimin and Yu, Ge},
   journal={IEEE Transactions on Knowledge and Data Engineering},
@@ -155,30 +132,20 @@
   number={12},
   pages={3218--3230},
   year={2016},
-  month={sep},
-  code={},
-  pdf={paper-2016-tkde-density peaks.pdf},
-  slides={},
-  google_scholar_id={fEOibwPWpKIC},
   publisher={IEEE}
 }
 
 @inproceedings{wang2019sep,
-  abbr={PPoPP 19},
+abbr={PPoPP 19},
   title={SEP-graph: finding shortest execution paths for graph processing under a hybrid framework on GPU},
   author={Wang, Hao and Geng, Liang and Lee, Rubao and Hou, Kaixi and Zhang, Yanfeng and Zhang, Xiaodong},
   booktitle={Proceedings of the 24th Symposium on Principles and Practice of Parallel Programming},
   pages={38--52},
-  year={2019},
-  month={feb},
-  code={https://github.com/SEP-Graph/sep-graph},
-  pdf={paper-2019-ppopp-SEP-Graph.pdf},
-  slides={},
-  google_scholar_id={_OXeSy2IsFwC},
+  year={2019}
 }
 
 @article{gong2017clustering,
-  abbr={VLDB 18},
+abbr={VLDB 18},
   title={Clustering stream data by exploring the evolution of density mountain},
   author={Gong, Shufeng and Zhang, Yanfeng and Yu, Ge},
   journal={Proceedings of the VLDB Endowment},
@@ -186,60 +153,40 @@
   number={4},
   pages={393--405},
   year={2017},
-  month={dec},
-  code={https://github.com/gongsf-neu/EDMStream},
-  pdf={paper-2017-vldb-stream data.pdf},
-  slides={},
-  google_scholar_id={9c2xU6iGI7YC},
   publisher={VLDB Endowment}
 }
 
 @inproceedings{teng2017lsbm,
-  abbr={ICDCS 17},
+abbr={ICDCS 17},
   title={LSbM-tree: Re-enabling buffer caching in data management for mixed reads and writes},
   author={Teng, Dejun and Guo, Lei and Lee, Rubao and Chen, Feng and Ma, Siyuan and Zhang, Yanfeng and Zhang, Xiaodong},
   booktitle={2017 IEEE 37th International Conference on Distributed Computing Systems (ICDCS)},
   pages={68--79},
   year={2017},
-  month={jun},
-  code={},
-  pdf={paper-2017-icdcs-LSbM-tree.pdf},
-  slides={},
-  google_scholar_id={IUKN3-7HHlwC},
   organization={IEEE}
 }
 
 @inproceedings{wang2022neutronstar,
-  abbr={SIGMOD 22},
+abbr={SIGMOD 22},
   title={Neutronstar: distributed GNN training with hybrid dependency management},
   author={Wang, Qiange and Zhang, Yanfeng and Wang, Hao and Chen, Chaoyi and Zhang, Xiaodong and Yu, Ge},
   booktitle={Proceedings of the 2022 International Conference on Management of Data},
   pages={1301--1315},
-  year={2022},
-  month={jun},
-  code={https://github.com/iDC-NEU/NeutronStarLite},
-  pdf={paper-2022-sigmod-Neutronstar.pdf},
-  slides={},
-  google_scholar_id={QD3KBmkZPeQC},
+  year={2022}
 }
 
 @inproceedings{yin2012accelerating,
-  abbr={Cluster 12},
+abbr={Cluster 12},
   title={Accelerating expectation-maximization algorithms with frequent updates},
   author={Yin, Jiangtao and Zhang, Yanfeng and Gao, Lixin},
   booktitle={2012 IEEE International Conference on Cluster Computing},
   pages={275--283},
   year={2012},
-  month={sep},
-  code={},
-  pdf={paper-2012-cluster-expectation max.pdf},
-  slides={},
-  google_scholar_id={W7OEmFMy1HYC},
   organization={IEEE}
 }
 
 @article{peng2022neuchain,
-  abbr={VLDB 22},
+abbr={VLDB 22},
   title={Neuchain: a fast permissioned blockchain system with deterministic ordering},
   author={Peng, Zeshun and Zhang, Yanfeng and Xu, Qian and Liu, Haixu and Gao, Yuxiao and Li, Xiaohua and Yu, Ge},
   journal={Proceedings of the VLDB Endowment},
@@ -247,47 +194,32 @@
   number={11},
   pages={2585--2598},
   year={2022},
-  month={jul},
-  code={https://github.com/iDC-NEU/NeuChain},
-  pdf={paper-2022-vldb-NeuChain.pdf},
-  slides={slide-2022-vldb-NeuChain.pdf},
-  google_scholar_id={wMgC3FpKEyYC},
   publisher={VLDB Endowment}
 }
 
 @article{gong2016eddpc,
-  abbr={计算机研究与发展},
+abbr={计算机研究与发展},
   title={EDDPC: An efficient distributed density peaks clustering algorithm},
   author={Gong, Shufeng and Zhang, Yanfeng},
   journal={Journal of Computer Research and Development},
   volume={53},
   number={6},
   pages={1400--1409},
-  year={2016},
-  month={},
-  code={},
-  pdf={paper-2016-计算机研究与发展-EDDPC.pdf},
-  slides={},
-  google_scholar_id={8xutWZnSdmoC}
+  year={2016}
 }
 
 @inproceedings{wang2020automating,
-  abbr={SIGMOD 20},
+abbr={SIGMOD 20},
   title={Automating incremental and asynchronous evaluation for recursive aggregate data processing},
   author={Wang, Qiange and Zhang, Yanfeng and Wang, Hao and Geng, Liang and Lee, Rubao and Zhang, Xiaodong and Yu, Ge},
   booktitle={Proceedings of the 2020 ACM SIGMOD International Conference on Management of data},
   pages={2439--2454},
-  year={2020},
-  month={jun},
-  code={https://github.com/Wangqge/PowerLog_ae},
-  pdf={paper-2020-sigmod-powerlog.pdf},
-  slides={slide-2020-sigmod-powerlog.pdf},
-  google_scholar_id={gKiMpY-AVTkC}
+  year={2020}
 }
 
 
 @article{teng2018low,
-  abbr={TOS},
+abbr={TOS},
   title={A low-cost disk solution enabling LSM-tree to achieve high performance for mixed read/write workloads},
   author={Teng, Dejun and Guo, Lei and Lee, Rubao and Chen, Feng and Zhang, Yanfeng and Ma, Siyuan and Zhang, Xiaodong},
   journal={ACM Transactions on Storage (TOS)},
@@ -295,16 +227,11 @@
   number={2},
   pages={1--26},
   year={2018},
-  month={apr},
-  code={},
-  pdf={paper-2018-tos-low-cost disk.pdf},
-  slides={},
-  google_scholar_id={bKqednn6t2AC},
   publisher={ACM New York, NY, USA}
 }
 
 @article{gong2021automating,
-  abbr={VLDB 21},
+abbr={VLDB 21},
   title={Automating incremental graph processing with flexible memoization},
   author={Gong, Shufeng and Tian, Chao and Yin, Qiang and Yu, Wenyuan and Zhang, Yanfeng and Geng, Liang and Yu, Song and Yu, Ge and Zhou, Jingren},
   journal={Proceedings of the VLDB Endowment},
@@ -312,32 +239,22 @@
   number={9},
   pages={1613--1625},
   year={2021},
-  month={may},
-  code={},
-  pdf={paper-2021-vldb-ingress.pdf},
-  slides={silde-2021-vldb-ingress.pdf},
-  google_scholar_id={AHdEip9mkN0C},
   publisher={VLDB Endowment}
 }
 
 @inproceedings{zhu2019gancoder,
-  abbr={NLPCC 19},
+abbr={NLPCC 19},
   title={GANCoder: an automatic natural language-to-programming language translation approach based on GAN},
   author={Zhu, Yabing and Zhang, Yanfeng and Yang, Huili and Wang, Fangjing},
   booktitle={Natural Language Processing and Chinese Computing: 8th CCF International Conference, NLPCC 2019, Dunhuang, China, October 9--14, 2019, Proceedings, Part II 8},
   pages={529--539},
   year={2019},
-  month={},
-  code={},
-  pdf={paper-2019-nlpcc-gancoder.pdf},
-  slides={},
-  google_scholar_id={u-coK7KVo8oC},
   organization={Springer}
 }
 
 
 @article{wang2023have,
-  abbr={WWWJ},
+abbr={WWWJ},
   title={What have we learned from OpenReview?},
   author={Wang, Gang and Peng, Qi and Zhang, Yanfeng and Zhang, Mingyang},
   journal={World Wide Web},
@@ -345,62 +262,42 @@
   number={2},
   pages={683--708},
   year={2023},
-  month={mar},
-  code={https://github.com/Seafoodair/Openreview/},
-  pdf={paper-2023-wwwj-have.pdf},
-  slides={},
-  google_scholar_id={sJsF-0ZLhtgC},
   publisher={Springer}
 }
 
 @inproceedings{wang2023hytgraph,
-  abbr={ICDE 23},
+abbr={ICDE 23},
   title={HyTGraph: GPU-Accelerated Graph Processing with Hybrid Transfer Management},
   author={Wang, Qiange and Ai, Xin and Zhang, Yanfeng and Chen, Jing and Yu, Ge},
   booktitle={2023 IEEE 39th International Conference on Data Engineering (ICDE)},
   pages={558--571},
   year={2023},
-  month={apr},
-  code={https://github.com/iDC-NEU/HyTGraph},
-  pdf={paper-2023-icde-HyTGraph.pdf},
-  slides={slide-2023-icde-HyTGraph.pdf},
-  google_scholar_id={zCSUwVk65WsC},
   organization={IEEE}
 }
 
 @inproceedings{floratos2018sqloop,
-  abbr={ICDCS 18},
+abbr={ICDCS 18},
   title={Sqloop: High performance iterative processing in data management},
   author={Floratos, Sofoklis and Zhang, Yanfeng and Yuan, Yuan and Lee, Rubao and Zhang, Xiaodong},
   booktitle={2018 IEEE 38th International Conference on Distributed Computing Systems (ICDCS)},
   pages={1039--1051},
   year={2018},
-  month={jul},
-  code={},
-  pdf={paper-2018-icdcs-SQLoop.pdf},
-  slides={LhH-TYMQEocC},
-  google_scholar_id={},
   organization={IEEE}
 }
 
 @article{yin2018accelerating,
-  abbr={JPDC 18},
+abbr={JPDC 18},
   title={Accelerating distributed Expectation--Maximization algorithms with frequent updates},
   author={Yin, Jiangtao and Zhang, Yanfeng and Gao, Lixin},
   journal={Journal of Parallel and Distributed Computing},
   volume={111},
   pages={65--75},
   year={2018},
-  month={jan},
-  code={},
-  pdf={paper-2018-jpdc-expectation.pdf},
-  slides={},
-  google_scholar_id={OTTXONDVkokC},
   publisher={Elsevier}
 }
 
 @article{yuan2024comprehensive,
-  abbr={VLDB 24},
+abbr={VLDB 24},
   title={Comprehensive Evaluation of GNN Training Systems: A Data Management Perspective},
   author={Yuan, Hao and Liu, Yajiong and Zhang, Yanfeng and Ai, Xin and Wang, Qiange and Chen, Chaoyi and Gu, Yu and Yu, Ge},
   journal={Proceedings of the VLDB Endowment},
@@ -408,16 +305,14 @@
   number={6},
   pages={1241--1254},
   year={2024},
-  month={nov},
   code={https://github.com/iDC-NEU/NeutronBench},
-  pdf={paper-2024-vldb-evaluation.pdf},
-  slides={slide-2024-vldb-evaluation.pdf},
-  google_scholar_id={v1_lew4L6wgC},
+  pdf={2024-vldb-neutronbench.pdf},
+  slides={},
   publisher={VLDB Endowment}
 }
 
 @article{yao2023ragraph,
-  abbr={VLDB 24},
+abbr={VLDB 24},
   title={Ragraph: A region-aware framework for geo-distributed graph processing},
   author={Yao, Feng and Tao, Qian and Yu, Wenyuan and Zhang, Yanfeng and Gong, Shufeng and Wang, Qiange and Yu, Ge and Zhou, Jingren},
   journal={Proceedings of the VLDB Endowment},
@@ -425,16 +320,14 @@
   number={3},
   pages={264--277},
   year={2023},
-  month={apr},
   code={https://github.com/iDC-NEU/RAGraph},
-  pdf={paper-2023-vldb-RAGraph.pdf},
-  slides={slide-2023-vldb-RAGraph.pdf},
-  google_scholar_id={nRpfm8aw39MC},
+  pdf={2024-tpds-geo graph.pdf},
+  slides={RAGraph_VLDB24.pdf},
   publisher={VLDB Endowment}
 }
 
 @article{zhou2023geogauss,
-  abbr={SIGMOD 23},
+abbr={SIGMOD 23},
   title={Geogauss: Strongly consistent and light-coordinated oltp for geo-replicated sql database},
   author={Zhou, Weixing and Peng, Qi and Zhang, Zijie and Zhang, Yanfeng and Ren, Yang and Li, Sihao and Fu, Guo and Cui, Yulong and Li, Qiang and Wu, Caiyi and others},
   journal={Proceedings of the ACM on Management of Data},
@@ -442,32 +335,22 @@
   number={1},
   pages={1--27},
   year={2023},
-  month={may},
-  code={https://github.com/iDC-NEU/GeoGauss},
-  pdf={paper-2023-sigmod-GeoGauss.pdf},
-  slides={slide-2023-sigmod-GeoGauss.pdf},
-  google_scholar_id={BzfGm06jWhQC},
   publisher={ACM New York, NY, USA}
 }
 
 @inproceedings{gong2020hbp,
-  abbr={ICDE 20},
+abbr={ICDE 20},
   title={HBP: Hotness balanced partition for prioritized iterative graph computations},
   author={Gong, Shufeng and Zhang, Yanfeng and Yu, Ge},
   booktitle={2020 IEEE 36th International Conference on Data Engineering (ICDE)},
   pages={1942--1945},
   year={2020},
-  month={apr},
-  code={https://github.com/gongsf-neu/GraphPartition},
-  pdf={paper-2020-icde-HBP.pdf},
-  slides={},
-  google_scholar_id={tH6gc1N1XXoC},
   organization={IEEE}
 }
 
 
 @article{ai2024neutronorch,
-  abbr={VLDB 24},
+abbr={VLDB 24},
   title={NeutronOrch: Rethinking Sample-Based GNN Training under CPU-GPU Heterogeneous Environments},
   author={Ai, Xin and Wang, Qiange and Cao, Chunyu and Zhang, Yanfeng and Chen, Chaoyi and Yuan, Hao and Gu, Yu and Yu, Ge},
   journal={Proceedings of the VLDB Endowment},
@@ -475,33 +358,23 @@
   number={8},
   pages={1995--2008},
   year={2024},
-  month={nov},
-  code={https://github.com/iDC-NEU/NeutronOrch},
-  pdf={paper-2024-vldb-NeutronOrch.pdf},
-  slides={slide-2024-vldb-NeutronOrch.pdf},
-  google_scholar_id={cK4Rrx0J3m0C},
   publisher={VLDB Endowment}
 }
 
 @article{liu2023improving,
-  abbr={FGCS},
+abbr={FGCS},
   title={Improving density peaks clustering through GPU acceleration},
   author={Liu, Zhuojin and Gong, Shufeng and Su, Yuxuan and Wan, Changyi and Zhang, Yanfeng and Yu, Ge},
   journal={Future Generation Computer Systems},
   volume={141},
   pages={399--413},
   year={2023},
-  month={apr},
-  code={},
-  pdf={paper-2023-fgcs-density.pdf},
-  slides={},
-  google_scholar_id={43bX7VzcjpAC},
   publisher={Elsevier}
 }
 
 
 @article{song2023adgnn,
-  abbr={SIGMOD 24},
+abbr={SIGMOD 24},
   title={ADGNN: towards scalable GNN training with aggregation-difference aware sampling},
   author={Song, Zhen and Gu, Yu and Li, Tianyi and Sun, Qing and Zhang, Yanfeng and Jensen, Christian S and Yu, Ge},
   journal={Proceedings of the ACM on Management of Data},
@@ -509,16 +382,11 @@
   number={4},
   pages={1--26},
   year={2023},
-  month={dec},
-  code={},
-  pdf={paper-2024-sigmod-ADGNN.pdf},
-  slides={},
-  google_scholar_id={kVjdVfd2voEC},
   publisher={ACM New York, NY, USA}
 }
 
 @article{chen2023neutronstream,
-  abbr={VLDB 24},
+abbr={VLDB 24},
   title={NeutronStream: A Dynamic GNN Training Framework with Sliding Window for Graph Streams},
   author={Chen, Chaoyi and Gao, Dechao and Zhang, Yanfeng and Wang, Qiange and Fu, Zhenbo and Zhang, Xuecang and Zhu, Junhua and Gu, Yu and Yu, Ge},
   journal={Proceedings of the VLDB Endowment},
@@ -526,80 +394,55 @@
   number={3},
   pages={455--468},
   year={2023},
-  month={dec},
-  code={https://github.com/iDC-NEU/NeutronStream},
-  pdf={paper-2024-vldb-NeutronStream.pdf},
-  slides={slide-2024-vldb-NeutronStream.pdf},
-  google_scholar_id={PaBasH6fAo0C},
   publisher={VLDB Endowment}
 }
 
 
 @article{song2022versatility,
-  abbr={FGCS},
+abbr={FGCS},
   title={Versatility or validity: A comprehensive review on simulation of datacenters powered by renewable energy mix},
   author={Song, Jie and Zhu, Peimeng and Zhang, Yanfeng and Yu, Ge},
   journal={Future Generation Computer Systems},
   volume={136},
   pages={326--341},
   year={2022},
-  month={nov},
-  code={},
-  pdf={paper-2022-fgcs-versatility.pdf},
-  slides={},
-  google_scholar_id={MpfHP-DdYjUC},
   publisher={Elsevier}
 }
 
 @inproceedings{yu2023layph,
-  abbr={ICDE 23},
+abbr={ICDE 23},
   title={Layph: Making Change Propagation Constraint in Incremental Graph Processing by Layering Graph},
   author={Yu, Song and Gong, Shufeng and Zhang, Yanfeng and Yu, Wenyuan and Yin, Qiang and Tian, Chao and Tao, Qian and Yan, Yongze and Yu, Ge and Zhou, Jingren},
   booktitle={2023 IEEE 39th International Conference on Data Engineering (ICDE)},
   pages={2766--2779},
   year={2023},
-  month={apr},
-  code={},
-  pdf={paper-2023-icde-Layph.pdf},
-  slides={slide-2023-icde-Layph.pdf},
-  google_scholar_id={U4n9YNQMCAIC},
   organization={IEEE}
 }
 
 @article{ding2022layerlsh,
-  abbr={IEEE Access},
+abbr={IEEE Access},
   title={LayerLSH: Rebuilding Locality-Sensitive Hashing Indices by Exploring Density of Hash Values},
   author={Ding, Jiwen and Liu, Zhuojin and Zhang, Yanfeng and Gong, Shufeng and Yu, Ge},
   journal={IEEE Access},
   volume={10},
   pages={69851--69865},
   year={2022},
-  month={jun},
-  code={},
-  pdf={paper-2022-access-LayerLSH.pdf},
-  slides={},
-  google_scholar_id={otzGkya1bYkC},
   publisher={IEEE}
 }
 
 @article{liang2021end,
-  abbr={IEEE Access},
+abbr={IEEE Access},
   title={An end-to-end multiplex graph neural network for graph representation learning},
   author={Liang, Yanyan and Zhang, Yanfeng and Gao, Dechao and Xu, Qian},
   journal={IEEE Access},
   volume={9},
   pages={58861--58869},
   year={2021},
-  month={},
-  code={},
-  pdf={paper-2021-access-end.pdf},
-  slides={},
-  google_scholar_id={6yz0xqPARnAC},
   publisher={IEEE}
 }
 
 @article{gong2020accelerating,
-  abbr={TPDS},
+abbr={TPDS},
   title={Accelerating large-scale prioritized graph computations by hotness balanced partition},
   author={Gong, Shufeng and Zhang, Yanfeng and Yu, Ge},
   journal={IEEE Transactions on Parallel and Distributed Systems},
@@ -607,62 +450,42 @@
   number={4},
   pages={746--759},
   year={2020},
-  month={oct},
-  code={https://github.com/gongsf-neu/GraphPartition},
-  pdf={paper-2020-tpds-hotness.pdf},
-  slides={},
-  google_scholar_id={Ak0FvsSvgGUC},
   publisher={IEEE}
 }
 
 @inproceedings{su2020gdpc,
-  abbr={DASFAA 20},
+abbr={DASFAA 20},
   title={GDPC: A GPU-accelerated density peaks clustering algorithm},
   author={Su, Yuxuan and Zhang, Yanfeng and Wan, Changyi and Yu, Ge},
   booktitle={International Conference on Database Systems for Advanced Applications},
   pages={305--313},
   year={2020},
-  month={sep},
-  code={},
-  pdf={paper-2020-dasfaa-GDPC.pdf},
-  slides={},
-  google_scholar_id={LgRImbQfgY4C},
   organization={Springer}
 }
 
 
 @inproceedings{wang2024hammer,
-  abbr={ICDCS 24},
+abbr={ICDCS 24},
   title={Hammer: A General Blockchain Evaluation Framework},
   author={Wang, Gang and Zhang, Yanfeng and Ying, Chenhao and Lit, Xiaohua and Yu, Ge},
   booktitle={2024 IEEE 44th International Conference on Distributed Computing Systems (ICDCS)},
   pages={391--402},
   year={2024},
-  month={jul},
-  code={},
-  pdf={paper-2024-icdcs-Hammer.pdf},
-  slides={slide-2024-icdcs-Hammer.pdf},
-  google_scholar_id={prdVHNxh-e8C},
   organization={IEEE}
 }
 
 @inproceedings{zhou2024fast,
-  abbr={ICDE 24},
+abbr={ICDE 24},
   title={Fast iterative graph computing with updated neighbor states},
   author={Zhou, Yijie and Gong, Shufeng and Yao, Feng and Chen, Hanzhang and Yu, Song and Liu, Pengxi and Zhang, Yanfeng and Yu, Ge and Yu, Jeffrey Xu},
   booktitle={2024 IEEE 40th International Conference on Data Engineering (ICDE)},
   pages={2449--2462},
   year={2024},
-  month={may},
-  code={https://github.com/iDC-NEU/GoGraph},
-  pdf={paper-2024-icde-gograph.pdf},
-  slides={slide-2024-icde-gograph.pdf},
-  google_scholar_id={WC23djZS0W4C},
   organization={IEEE}
 }
 
 @article{song2024cloudsimper,
-  abbr={TPDS 24},
+abbr={TPDS 24},
   title={Cloudsimper: Simulating geo-distributed datacenters powered by renewable energy mix},
   author={Song, Jie and Zhu, Peimeng and Zhang, Yanfeng and Yu, Ge},
   journal={IEEE Transactions on Parallel and Distributed Systems},
@@ -670,97 +493,67 @@
   number={4},
   pages={531--547},
   year={2024},
-  month={jan},
-  code={},
-  pdf={paper-2024-tpds-CloudSimPer.pdf},
-  slides={},
-  google_scholar_id={XUvXOeBm_78C},
   publisher={IEEE}
 }
 
 
 @inproceedings{zhang2021distributed,
-  abbr={APWeb 21},
+abbr={APWeb 21},
   title={Distributed graph processing: techniques and systems},
   author={Zhang, Yanfeng and Wang, Qiange and Gong, Shufeng},
   booktitle={Web and Big Data. APWeb-WAIM 2020 International Workshops: KGMA 2020, SemiBDMA 2020, DeepLUDA 2020, Tianjin, China, September 18--20, 2020, Revised Selected Papers 4},
   pages={14--23},
   year={2021},
-  month={apr},
-  code={},
-  pdf={paper-2021-apweb-distributed.pdf},
-  slides={},
-  google_scholar_id={F1b5ZUV5XREC},
   organization={Springer}
 }
 
 
 @article{wang2025towards,
-  abbr={TPDS 25},
+abbr={TPDS 25},
   title={Towards Communication-Efficient Out-of-Core Graph Processing on the GPU},
   author={Wang, Qiange and Ai, Xin and Yan, Yongze and Gong, Shufeng and Zhang, Yanfeng and Chen, Jing and Yu, Ge},
   journal={IEEE Transactions on Parallel and Distributed Systems},
   year={2025},
-  month={},
-  code={},
-  pdf={paper-2025-tpds-towards.pdf},
-  slides={},
-  google_scholar_id={hsZV8lGYWTMC},
   publisher={IEEE}
 }
 
 
 @article{liu2025neutronsketch,
-  abbr={KBS},
+abbr={KBS},
   title={NeutronSketch: An in-depth exploration of redundancy in large-scale graph neural network training},
   author={Liu, Yajiong and Zhang, Yanfeng and Wang, Qiange and Yuan, Hao and Ai, Xin and Yu, Ge},
   journal={Knowledge-Based Systems},
   volume={309},
   pages={112786},
   year={2025},
-  month={jan},
-  code={https://github.com/iDC-NEU/Neutronsketch-KBS},
-  pdf={paper-2025-kbs-NeutronSketch.pdf},
-  slides={},
-  google_scholar_id={CB2v5VPnA5kC},
   publisher={Elsevier}
 }
 
 @article{yu2024lsmgraph,
-  abbr={SIGMOD 25},
+abbr={SIGMOD 25},
   title={LSMGraph: A High-Performance Dynamic Graph Storage System with Multi-Level CSR},
   author={Yu, Song and Gong, Shufeng and Tao, Qian and Shen, Sijie and Zhang, Yanfeng and Yu, Wenyuan and Liu, Pengxi and Zhang, Zhixin and Li, Hongfu and Luo, Xiaojian and others},
   journal={Proceedings of the ACM on Management of Data},
   volume={2},
   number={6},
   pages={1--28},
-  year={2024},
-  month={dec},
-  code={},
-  pdf={paper-2024-sigmod-LSMGraph.pdf},
-  slides={},
-  google_scholar_id={PYBJJbyH-FwC},
+  year={2025},
   publisher={ACM New York, NY, USA}
 }
 
 
 @article{yao2024towards,
-  abbr={TPDS 24},
+abbr={TPDS 24},
   title={Towards Efficient Graph Processing in Geo-Distributed Data Centers},
   author={Yao, Feng and Tao, Qian and Lin, Shengyuan and Zhang, Yanfeng and Yu, Wenyuan and Gong, Shufeng and Wang, Qiange and Yu, Ge and Zhou, Jingren},
   journal={IEEE Transactions on Parallel and Distributed Systems},
   year={2024},
-  month={},
-  code={},
-  pdf={paper-2024-tpds-Geo.pdf},
-  slides={},
-  google_scholar_id={7H_MAutzIkAC},
   publisher={IEEE}
 }
 
 
 @article{song2024dynahb,
-  abbr={VLDB 24},
+abbr={VLDB 24},
   title={DynaHB: A Communication-Avoiding Asynchronous Distributed Framework with Hybrid Batches for Dynamic GNN Training},
   author={Song, Zhen and Gu, Yu and Sun, Qing and Li, Tianyi and Zhang, Yanfeng and Li, Yushuai and Jensen, Christian S and Yu, Ge},
   journal={Proceedings of the VLDB Endowment},
@@ -768,32 +561,22 @@
   number={11},
   pages={3388--3401},
   year={2024},
-  month={jul},
-  code={},
-  pdf={paper-2024-vldb-DynaHB.pdf},
-  slides={},
-  google_scholar_id={jU7OWUQzBzMC},
   publisher={VLDB Endowment}
 }
 
 
 @inproceedings{wei2024ltpg,
-  abbr={ICDE 24},
+abbr={ICDE 24},
   title={LTPG: Large-Batch Transaction Processing on GPUs with Deterministic Concurrency Control},
   author={Wei, Jianpeng and Gu, Yu and Li, Tianyi and Qi, Jianzhong and Li, Chuanwen and Zhang, Yanfeng and Jensen, Christian S and Yu, Ge},
   booktitle={2024 IEEE 40th International Conference on Data Engineering (ICDE)},
   pages={3865--3877},
   year={2024},
-  month={may},
-  code={},
-  pdf={paper-2024-icde-LTPG.pdf},
-  slides={},
-  google_scholar_id={L1USKYWJimsC},
   organization={IEEE}
 }
 
 @article{gong2024ingress,
-  abbr={VLDBJ},
+abbr={VLDBJ},
   title={Ingress: an automated incremental graph processing system},
   author={Gong, Shufeng and Tian, Chao and Yin, Qiang and Wang, Zhengdong and Yu, Song and Zhang, Yanfeng and Yu, Wenyuan and Geng, Liang and Fu, Chong and Yu, Ge and others},
   journal={The VLDB Journal},
@@ -801,23 +584,13 @@
   number={3},
   pages={781--806},
   year={2024},
-  month={may},
-  code={https://github.com/gongsf-neu/Ingress},
-  pdf={paper-2024-vldbj-ingress.pdf},
-  slides={},
-  google_scholar_id={7BrZ7Jt4UNcC},
   publisher={Springer}
 }
 
 @article{zhang2023towards,
-  abbr={Arxiv},
+abbr={Arrive},
   title={Towards Transaction as a Service},
   author={Zhang, Yanfeng and Zhou, Weixing and Ren, Yang and Li, Sihao and Li, Guoliang and Yu, Ge},
   journal={arXiv preprint arXiv:2311.07874},
-  year={2023},
-  month={nov},
-  code={},
-  pdf={paper-2023-arxiv-towards.pdf},
-  slides={},
-  google_scholar_id={LdasjJ6CEcoC},
+  year={2023}
 }
