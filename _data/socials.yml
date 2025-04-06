@@ -2,7 +2,7 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-# acm_id: # your dl.acm.org/profile/id
+ acm_id: 81435603685 # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
 # dblp_url: # your DBLP profile url
@@ -29,7 +29,7 @@ email: zhangyf@mail.neu.edu.cn # your email address
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
- rss_icon: true # set to true to show the RSS icon
+# rss_icon: true # set to true to show the RSS icon
 scholar_userid: Bw90kcYAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
