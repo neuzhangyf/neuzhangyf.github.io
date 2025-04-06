@@ -1,8 +1,8 @@
 ---
 layout: post
-title: VLDB 24 at Guangzhou
+title: iDC-NEU group photos
 date: 2024-08-31 01:59:00
-description: NEU DB group at VLDB 24
+description: a set of group photos
 tags: students
 categories: activities
 thumbnail: assets/img/2024.8-guangzhou-vldb.jpg
@@ -13,13 +13,13 @@ images:
   venobox: true
 ---
 
-The images in this post are all zoomable, arranged into different mini-galleries using different libraries.
 
-## [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)
+## [2024 group photos]
 
-<a href="https://neuzhangyf.github.io/assets/img/2024.8-guangzhou-vldb.jpg" data-lightbox="roadtrip"><img src="https://neuzhangyf.github.io/assets/img/2024.8-guangzhou-vldb.jpg" /></a>
-<a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" /></a>
-<a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" /></a>
+<a href="https://neuzhangyf.github.io/assets/img/2024.8-guangzhou-vldb.jpg" data-lightbox="roadtrip"><img src="https://neuzhangyf.github.io/assets/img/2024.8-guangzhou-vldb-small.jpg" /></a>
+<a href="https://neuzhangyf.github.io/assets/img/2024.7.6-basketball.jpg" data-lightbox="roadtrip"><img src="https://neuzhangyf.github.io/assets/img/2024.7.6-basketball-small.jpg" /></a>
+<a href="https://neuzhangyf.github.io/assets/img/2024.6-graduate.jpg" data-lightbox="roadtrip"><img src="https://neuzhangyf.github.io/assets/img/2024.6-graduate-small.jpg" /></a>
+<a href="https://neuzhangyf.github.io/assets/img/2024.5-fangte.jpg" data-lightbox="roadtrip"><img src="https://neuzhangyf.github.io/assets/img/2024.5-fangte-small.jpg" /></a>
 
 ---
 
