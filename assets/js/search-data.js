@@ -463,13 +463,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/neutronrag/";
             },},{
-        id: 'social-acm',
-        title: 'ACM DL',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://dl.acm.org/profile/81435603685/", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
