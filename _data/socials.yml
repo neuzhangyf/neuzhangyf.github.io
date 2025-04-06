@@ -10,7 +10,7 @@ acm_id: 81435603685 # your dl.acm.org/profile/id
 email: zhangyf@mail.neu.edu.cn # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-github_username: zhangyf@mail.neu.edu.cn # your GitHub user name
+# github_username: zhangyf@mail.neu.edu.cn # your GitHub user name
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
@@ -23,13 +23,13 @@ github_username: zhangyf@mail.neu.edu.cn # your GitHub user name
 # linkedin_username: # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-# orcid_id: 0000-0002-9871-0304 # your ORCID ID
+orcid_id: 0000-0002-9871-0304 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-# rss_icon: true # set to true to show the RSS icon
+rss_icon: true # set to true to show the RSS icon
 scholar_userid: Bw90kcYAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
@@ -37,7 +37,7 @@ scholar_userid: Bw90kcYAAAAJ # your Google Scholar ID
 # stackoverflow_id: # your stackoverflow id
 # telegram_username: # your Telegram user name
 # unsplash_id: # your unsplash id
-# wechat_qr: wechat-qr.png # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+wechat_qr: wechat-qr.png # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
