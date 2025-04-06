@@ -463,25 +463,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/neutronrag/";
             },},{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-acm',
+        title: 'ACM DL',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%7A%68%61%6E%67%79%66@%6D%61%69%6C.%6E%65%75.%65%64%75.%63%6E", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=Bw90kcYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://idc-neu.github.io/", "_blank");
+          window.open("https://dl.acm.org/profile/81435603685/", "_blank");
         },
       },{
       id: 'light-theme',
