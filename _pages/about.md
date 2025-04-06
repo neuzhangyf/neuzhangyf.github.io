@@ -29,6 +29,6 @@ latest_posts:
 
 I am a professor of <a href='http://www.cse.neu.edu.cn/'>School of Computer Science and Engineering</a> at <a href='https://www.neu.edu.cn/'>Northeastern University</a>, China. During my Ph. D. study, I spent 2.5 years working under supervision of <a href='https://infosec.cs.umass.edu/person/gao-lixin'>Prof. Lixin Gao</a> at <a href='https://www.umass.edu/'>University of Massachusetts Amherst</a> as a visiting Ph.D. student (Aug. 2009 - Apr. 2012). I also worked as a visiting scholar in <a href='https://xiaodongzhang1911.github.io/'>Prof. Xiaodong Zhang</a>'s group at <a href='https://www.osu.edu/'>Ohio State University</a> (Dec. 2016 - Dec. 2017).
 
-I am leading <a href='https://idc-neu.github.io/'>iDC-NEU group</a> where many enthusiastic and talent students work together. My research interest focuses on building data systems including database systems, graph processing systems, and systems for AI. I am also working with several industry groups, including Huawei's GaussDB, Alibaba's Damo Academy, Ant's TuGraph, and so on. 
+I am leading <a href='https://idc-neu.github.io/'>iDC-NEU group</a> where many enthusiastic and talented students work together. My research interest focuses on building data systems including database systems, graph processing systems, and systems for AI. I am also working with several industry groups (Huawei's GaussDB, Alibaba Damo Academy's GraphScope, Ant's TuGraph, and so on) targeting on solving real problems. 
 
 
