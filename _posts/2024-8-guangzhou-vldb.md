@@ -1,0 +1,58 @@
+---
+layout: post
+title: iDC-NEU at VLDB 24 (Guangzhou)
+date: 2024-08-31 01:59:00
+description: iDCers at VLDB 24
+tags: students
+categories: activities
+thumbnail: assets/img/2024.8-guangzhou-vldb.jpg
+images:
+  lightbox2: true
+  photoswipe: true
+  spotlight: true
+  venobox: true
+---
+
+<div class="spotlight-group">
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5099.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5099-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5103.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5103-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5104.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5104-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5105.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5105-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5106.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5106-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5108.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5108-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5121.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5121-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5123.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5123-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5136.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5136-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5138.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5138-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5139.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5139-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5141.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-vldb/IMG_5141-s.jpg" />
+    </a>
+    <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2024.8-guangzhou-vldb.jpg">
+        <img src="https://neuzhangyf.github.io/assets/img/2024.8-guangzhou-vldb-small.jpg" />
+    </a>
+</div>
+
+---
