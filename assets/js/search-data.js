@@ -66,15 +66,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/videos/";
           
         },
-      },{id: "post-vldb-24-at-guangzhou",
+      },{id: "post-idc-neu-group-photos",
         
-          title: "VLDB 24 at Guangzhou",
+          title: "iDC-NEU group photos",
         
-        description: "NEU DB group at VLDB 24",
+        description: "a set of group photos",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/vldb/";
+            window.location.href = "/blog/2024/group/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
