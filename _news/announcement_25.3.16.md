@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "NeutronRAG: Towards Understanding the Effectiveness of RAG from a Data Retrieval Perspective" is accepted by SIGMOD 2025's Demo Track!
+Our paper "NeutronRAG: Towards Understanding the Effectiveness of RAG from a Data Retrieval Perspective" is accepted by SIGMOD 25's Demo Track!
