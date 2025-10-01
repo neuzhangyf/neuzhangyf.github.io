@@ -17,10 +17,10 @@ images:
 
 <div class="spotlight-group">
     <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2025.9.20-half marathon1.jpg">
-        <img src="https://neuzhangyf.github.io/assets/img/2025.9.20-half marathon1.jpg" />
+        <img src="https://neuzhangyf.github.io/assets/img/2025.9.20-half marathon1-small.jpg" />
     </a>
     <a class="spotlight" href="https://neuzhangyf.github.io/assets/img/2025.9.20-half marathon2.jpg">
-        <img src="https://neuzhangyf.github.io/assets/img/2025.9.20-half marathon2.jpg" />
+        <img src="https://neuzhangyf.github.io/assets/img/2025.9.20-half marathon2-small.jpg" />
     </a>
 </div>
 
