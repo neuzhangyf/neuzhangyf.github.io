@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/marathon/";
           
         },
+      },{id: "post-idc-neu-at-half-marathon",
+        
+          title: "iDC-NEU at Half Marathon",
+        
+        description: "iDCers at London VLDB 25",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/london-vldb/";
+          
+        },
       },{id: "post-idc-neu-group-photos",
         
           title: "iDC-NEU group photos",
