@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-idc-neu-group-photos",
+        },{id: "post-idc-neu-at-half-marathon",
+        
+          title: "iDC-NEU at Half Marathon",
+        
+        description: "iDCers at Shenyang Half Marathon",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/marathon/";
+          
+        },
+      },{id: "post-idc-neu-group-photos",
         
           title: "iDC-NEU group photos",
         
@@ -124,6 +135,18 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-neutronheter-optimizing-distributed-graph-neural-network-training-for-heterogeneous-clusters-is-accepted-by-sigmod-26",
           title: 'Our paper “NeutronHeter: Optimizing Distributed Graph Neural Network Training for Heterogeneous Clusters” is...',
+          description: "",
+          section: "News",},{id: "news-our-paper-efficient-graph-data-access-for-out-of-memory-gpu-streaming-graph-processing-is-accepted-by-vldb-25",
+          title: 'Our paper “Efficient Graph Data Access for Out-of-Memory GPU Streaming Graph Processing” is...',
+          description: "",
+          section: "News",},{id: "news-our-paper-neutronascend-optimizing-gnn-training-with-ascend-ai-processors-is-accepted-by-taco",
+          title: 'Our paper “NeutronAscend: Optimizing GNN Training with Ascend AI Processors” is accepted by...',
+          description: "",
+          section: "News",},{id: "news-our-paper-neutroncloud-resource-aware-distributed-gnn-training-in-fluctuating-cloud-environments-is-accepted-by-vldb-26",
+          title: 'Our paper “NeutronCloud: Resource-Aware Distributed GNN Training in Fluctuating Cloud Environments” is accepted...',
+          description: "",
+          section: "News",},{id: "news-our-paper-depcache-a-kv-cache-management-framework-for-graphrag-with-dependency-attention-is-accepted-by-sigmod-26",
+          title: 'Our paper “DepCache: A KV Cache Management Framework for GraphRAG with Dependency Attention”...',
           description: "",
           section: "News",},{id: "projects-jittor-geometric",
           title: 'Jittor Geometric',
