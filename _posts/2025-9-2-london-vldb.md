@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iDC-NEU at Half Marathon
+title: iDC-NEU at London VLDB 25
 date: 2025-09-02 01:59:00
 description: iDCers at London VLDB 25
 tags: students VLDB images
