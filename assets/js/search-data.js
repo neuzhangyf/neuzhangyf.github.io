@@ -66,6 +66,28 @@ ninja.data = [{
             window.location.href = "/blog/2025/london-vldb/";
           
         },
+      },{id: "post-hiking-qianshan",
+        
+          title: "hiking Qianshan",
+        
+        description: "iDCers hiking Qianshan",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/hiking/";
+          
+        },
+      },{id: "post-idc-neu-at-sigmod-25-berlin",
+        
+          title: "iDC-NEU at SIGMOD 25 Berlin",
+        
+        description: "iDCers at SIGMOD 25 Berlin",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/berlin-sigmod/";
+          
+        },
       },{id: "post-idc-neu-group-photos",
         
           title: "iDC-NEU group photos",
