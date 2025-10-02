@@ -5,7 +5,7 @@ date: 2025-09-20 01:59:00
 description: iDCers at Shenyang Half Marathon
 tags: students VLDB images
 categories: sports
-thumbnail: assets/img/2025.9.20-half marathon1.jpg
+thumbnail: assets/img/2025.9.20-half marathon1-small.jpg
 images:
   lightbox2: true
   photoswipe: true
