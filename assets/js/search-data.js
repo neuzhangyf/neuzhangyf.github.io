@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-idc-neu-at-half-marathon",
+        },{id: "post-idc-neu-new-year-party",
+        
+          title: "iDC-NEU New Year Party",
+        
+        description: "iDCers at New Year Party",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/newyear/";
+          
+        },
+      },{id: "post-idc-neu-at-half-marathon",
         
           title: "iDC-NEU at Half Marathon",
         
